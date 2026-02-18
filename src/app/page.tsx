@@ -22,6 +22,31 @@ const HERO_PHOTOS = [
     url: "https://images.unsplash.com/photo-1658411418966-ade6a13498ee?w=1920&q=80&auto=format&fit=crop",
     credit: "ayumi kubo",
   },
+  {
+    id: "cafe",
+    url: "https://images.unsplash.com/photo-1769321868432-88627d9fd330?w=1920&q=80&auto=format&fit=crop",
+    credit: "Unsplash",
+  },
+  {
+    id: "shitamachi",
+    url: "https://images.unsplash.com/photo-1709455237000-678076b41f64?w=1920&q=80&auto=format&fit=crop",
+    credit: "Unsplash",
+  },
+  {
+    id: "nature",
+    url: "https://images.unsplash.com/photo-1588696495448-8992d308d878?w=1920&q=80&auto=format&fit=crop",
+    credit: "Unsplash",
+  },
+  {
+    id: "family",
+    url: "https://images.unsplash.com/photo-1593343740156-66bce45d7c38?w=1920&q=80&auto=format&fit=crop",
+    credit: "Unsplash",
+  },
+  {
+    id: "urban",
+    url: "https://images.unsplash.com/photo-1583915223588-7d88ebf23414?w=1920&q=80&auto=format&fit=crop",
+    credit: "Unsplash",
+  },
 ];
 
 export default function Home() {
