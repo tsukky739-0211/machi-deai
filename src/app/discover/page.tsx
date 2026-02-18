@@ -62,7 +62,7 @@ function DiscoverContent() {
   }, []);
 
   return (
-    <div className="pt-14 px-4 pb-4">
+    <div className="h-dvh flex flex-col overflow-hidden">
       {/* 街写真の背景ブラー */}
       {bgImage && (
         <>
@@ -78,8 +78,11 @@ function DiscoverContent() {
           <div className="fixed inset-0 -z-10 bg-white/55" />
         </>
       )}
-      <div className="max-w-sm mx-auto w-full">
-        <div className="text-center mb-2">
+      {/* ヘッダー分の余白 */}
+      <div className="h-14 shrink-0" />
+      {/* コンテンツエリア（残り全部） */}
+      <div className="flex-1 min-h-0 flex flex-col px-4 pb-4 max-w-sm w-full mx-auto">
+        <div className="text-center mb-2 shrink-0">
           <p className="text-sm text-muted">
             {recommendedTowns.length}件の街が見つかりました
           </p>
