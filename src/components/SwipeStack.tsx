@@ -102,7 +102,7 @@ export default function SwipeStack({ towns, onIndexChange }: SwipeStackProps) {
 
   if (currentIndex >= towns.length) {
     return (
-      <div className="flex flex-col items-center justify-center h-[70vh] text-center px-6">
+      <div className="flex flex-col items-center justify-center flex-1 text-center px-6">
         <p className="text-5xl mb-4">🎉</p>
         <h3 className="text-xl font-bold mb-2">
           {towns.length}の街をチェックしました！
@@ -134,7 +134,7 @@ export default function SwipeStack({ towns, onIndexChange }: SwipeStackProps) {
   const nextTown = towns[currentIndex + 1];
 
   return (
-    <div className="relative w-full max-w-sm mx-auto h-[70vh] flex flex-col items-center">
+    <div className="relative w-full max-w-sm mx-auto flex-1 flex flex-col items-center min-h-0">
       {/* カードカウンター */}
       <div className="text-xs text-muted mb-2">
         {currentIndex + 1} / {towns.length}
