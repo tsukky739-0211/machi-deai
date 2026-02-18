@@ -146,10 +146,18 @@ export default function TownDetailClient({
                   >
                     <div className="flex items-center gap-3">
                       <div
-                        className="w-8 h-8 rounded-lg flex-shrink-0"
-                        style={{
-                          background: `linear-gradient(135deg, ${rt.colorFrom}, ${rt.colorTo})`,
-                        }}
+                        className="w-12 h-12 rounded-xl flex-shrink-0 overflow-hidden"
+                        style={
+                          rt.image
+                            ? {
+                                backgroundImage: `url(${rt.image})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                              }
+                            : {
+                                background: `linear-gradient(135deg, ${rt.colorFrom}, ${rt.colorTo})`,
+                              }
+                        }
                       />
                       <div>
                         <span className="font-bold text-sm">{rt.name}</span>
