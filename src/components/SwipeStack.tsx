@@ -134,14 +134,14 @@ export default function SwipeStack({ towns, onIndexChange }: SwipeStackProps) {
   const nextTown = towns[currentIndex + 1];
 
   return (
-    <div className="relative w-full max-w-sm mx-auto flex-1 flex flex-col items-center min-h-0">
+    <div className="relative w-full max-w-sm mx-auto flex flex-col items-center" style={{ height: "calc(100dvh - 56px - 16px - 80px)" }}>
       {/* カードカウンター */}
       <div className="text-xs text-muted mb-2">
         {currentIndex + 1} / {towns.length}
       </div>
 
       {/* カードスタック */}
-      <div className="relative w-full flex-1 min-h-0">
+      <div className="relative w-full flex-1 overflow-hidden">
         {/* 次のカード（背景） */}
         {nextTown && (
           <div className="absolute inset-0 scale-95 opacity-60">

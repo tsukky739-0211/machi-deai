@@ -11,7 +11,7 @@ interface TownCardProps {
 export default function TownCard({ town, onTap }: TownCardProps) {
   return (
     <div
-      className="relative w-full h-full rounded-3xl overflow-hidden shadow-xl bg-card-bg cursor-pointer no-select"
+      className="relative w-full h-full max-h-full rounded-3xl overflow-hidden shadow-xl bg-card-bg cursor-pointer no-select"
       onClick={onTap}
     >
       {/* 背景画像 or カラーグラデーション */}
