@@ -112,7 +112,7 @@ export default function Home() {
             まだ知らない街が、<br />東京にはある。
           </h1>
           <p className="text-white/70 text-sm mt-2">
-            好みのvibeを選んで、ぴったりの穴場を探そう
+            あなたのセンスで、住みたい街を見つけよう
           </p>
 
           {/* 写真インジケーター */}
