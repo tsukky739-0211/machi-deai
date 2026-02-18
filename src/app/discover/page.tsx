@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useMemo, Suspense } from "react";
+import { useMemo, Suspense, useState, useCallback } from "react";
 import dynamic from "next/dynamic";
 import { getAllTowns } from "@/lib/towns";
 import { getRecommendedTowns } from "@/lib/recommend";
@@ -22,6 +22,7 @@ const SwipeStack = dynamic(() => import("@/components/SwipeStack"), {
 
 function DiscoverContent() {
   const searchParams = useSearchParams();
+  const [bgImage, setBgImage] = useState<string>("");
 
   const recommendedTowns = useMemo(() => {
     const allTowns = getAllTowns();
@@ -56,15 +57,34 @@ function DiscoverContent() {
     });
   }, [searchParams]);
 
+  const handleIndexChange = useCallback((_index: number, imageUrl: string) => {
+    setBgImage(imageUrl);
+  }, []);
+
   return (
     <div className="min-h-screen pt-16 pb-8 px-4">
+      {/* 街写真の背景ブラー */}
+      {bgImage && (
+        <>
+          <div
+            className="fixed inset-0 -z-10 bg-cover bg-center transition-all duration-700"
+            style={{
+              backgroundImage: `url(${bgImage})`,
+              filter: "blur(40px) saturate(0.6)",
+              transform: "scale(1.15)",
+              opacity: 0.3,
+            }}
+          />
+          <div className="fixed inset-0 -z-10 bg-white/55" />
+        </>
+      )}
       <div className="max-w-sm mx-auto">
         <div className="text-center mb-4">
           <p className="text-sm text-muted">
             {recommendedTowns.length}件の街が見つかりました
           </p>
         </div>
-        <SwipeStack towns={recommendedTowns} />
+        <SwipeStack towns={recommendedTowns} onIndexChange={handleIndexChange} />
       </div>
     </div>
   );

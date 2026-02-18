@@ -14,11 +14,12 @@ import TownCard from "./TownCard";
 
 interface SwipeStackProps {
   towns: Town[];
+  onIndexChange?: (index: number, imageUrl: string) => void;
 }
 
 const SWIPE_THRESHOLD = 100;
 
-export default function SwipeStack({ towns }: SwipeStackProps) {
+export default function SwipeStack({ towns, onIndexChange }: SwipeStackProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [exitDirection, setExitDirection] = useState<"left" | "right" | null>(
     null
@@ -34,10 +35,13 @@ export default function SwipeStack({ towns }: SwipeStackProps) {
     [0.5, 1, 1, 1, 0.5]
   );
 
-  // カードが変わったらx位置をリセット
+  // カードが変わったらx位置をリセット＆親へ通知
   useEffect(() => {
     x.set(0);
-  }, [currentIndex, x]);
+    if (towns[currentIndex]) {
+      onIndexChange?.(currentIndex, towns[currentIndex].image);
+    }
+  }, [currentIndex, x, towns, onIndexChange]);
 
   const handleDragStart = useCallback(() => {
     setIsDragging(true);
@@ -188,19 +192,11 @@ export default function SwipeStack({ towns }: SwipeStackProps) {
           </button>
           <button
             onClick={() => handleTap(currentTown.slug)}
-            className="px-6 py-2.5 bg-accent text-white rounded-full text-sm font-medium hover:bg-orange-600 transition-colors"
+            className="px-6 py-2.5 bg-accent text-white rounded-full text-sm font-medium hover:bg-amber-900 transition-colors"
           >
             詳しく見る
           </button>
         </div>
-        {/* PCキーボードヒント */}
-        <p className="hidden md:flex items-center gap-2 text-[11px] text-stone-400">
-          <span className="px-1.5 py-0.5 bg-stone-100 rounded text-stone-500 font-mono">←</span>
-          スキップ
-          <span className="mx-1">·</span>
-          <span className="px-1.5 py-0.5 bg-stone-100 rounded text-stone-500 font-mono">→</span>
-          詳しく見る
-        </p>
       </div>
     </div>
   );

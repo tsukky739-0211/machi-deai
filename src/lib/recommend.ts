@@ -66,8 +66,15 @@ export function getRecommendedTowns(
   }
 
   // スコア順にソートし、上位15件に絞る
-  return filtered
+  const top15 = filtered
     .sort((a, b) => b.score - a.score)
     .slice(0, 15)
     .map((c) => c.town);
+
+  // Fisher-Yatesシャッフル（毎回順番を変えてリピートを楽しく）
+  for (let i = top15.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [top15[i], top15[j]] = [top15[j], top15[i]];
+  }
+  return top15;
 }

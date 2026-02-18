@@ -3,6 +3,8 @@ export interface VibeCategory {
   emoji: string;
   label: string;
   description: string;
+  /** Unsplash CDN photo ID（例: photo-1234567890abcdef） */
+  photo?: string;
   /** マッチするvibeタグ群 */
   tags: string[];
 }
@@ -13,6 +15,7 @@ export const VIBE_CATEGORIES: VibeCategory[] = [
     emoji: "☕",
     label: "カフェ・おしゃれ",
     description: "個人カフェや雑貨屋が点在する街",
+    photo: "photo-1769321868432-88627d9fd330",
     tags: ["カフェ", "おしゃれ", "コーヒー", "スイーツ", "雑貨", "パン屋", "ビストロ"],
   },
   {
@@ -20,6 +23,7 @@ export const VIBE_CATEGORIES: VibeCategory[] = [
     emoji: "🏮",
     label: "下町・レトロ",
     description: "商店街や銭湯が残る人情の街",
+    photo: "photo-1709455237000-678076b41f64",
     tags: ["下町", "レトロ", "商店街", "人情", "庶民的", "銭湯", "食べ歩き", "老舗", "職人"],
   },
   {
@@ -34,6 +38,7 @@ export const VIBE_CATEGORIES: VibeCategory[] = [
     emoji: "🌿",
     label: "自然・のんびり",
     description: "公園や緑が多く穏やかな暮らし",
+    photo: "photo-1588696495448-8992d308d878",
     tags: ["自然", "公園", "緑", "散歩", "穏やか", "静か", "桜", "水辺", "緑豊か", "自然豊か", "渓谷", "多摩川"],
   },
   {
@@ -55,6 +60,7 @@ export const VIBE_CATEGORIES: VibeCategory[] = [
     emoji: "👨‍👩‍👧",
     label: "ファミリー・子育て",
     description: "治安がよく公園や学校が充実",
+    photo: "photo-1593343740156-66bce45d7c38",
     tags: ["ファミリー", "ファミリー向け", "子育て", "のびのび", "住みやすい", "住宅街", "閑静"],
   },
   {
@@ -69,6 +75,7 @@ export const VIBE_CATEGORIES: VibeCategory[] = [
     emoji: "🏙️",
     label: "都会・アクセス便利",
     description: "ターミナル駅近くで何でも揃う",
+    photo: "photo-1583915223588-7d88ebf23414",
     tags: ["アクセス", "交通便利", "ターミナル", "再開発", "都心", "利便性", "商業施設", "ショッピング"],
   },
   {
