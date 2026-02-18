@@ -1,24 +1,18 @@
 "use client";
 
-import { useState, useMemo, useRef } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { getAllTowns, getCommuteStations } from "@/lib/towns";
+import { getCommuteStations } from "@/lib/towns";
 import VibePicker from "@/components/VibePicker";
 import StationInput from "@/components/StationInput";
 
 export default function Home() {
   const router = useRouter();
-  const towns = getAllTowns();
   const commuteStations = getCommuteStations();
 
   const [selectedVibes, setSelectedVibes] = useState<string[]>([]);
-  const [currentSlug, setCurrentSlug] = useState<string>("");
+  const [currentTown, setCurrentTown] = useState("");
   const [commuteStation, setCommuteStation] = useState("");
-
-  // 今住んでる街：直接入力型
-  const [townInput, setTownInput] = useState("");
-  const [showSuggestions, setShowSuggestions] = useState(false);
-  const townInputRef = useRef<HTMLInputElement>(null);
 
   const toggleVibe = (vibeId: string) => {
     setSelectedVibes((prev) =>
@@ -31,40 +25,8 @@ export default function Home() {
   const handleDiscover = () => {
     const params = new URLSearchParams();
     params.set("vibes", selectedVibes.join(","));
-    if (currentSlug) params.set("current", currentSlug);
     if (commuteStation) params.set("commute", commuteStation);
     router.push(`/discover?${params.toString()}`);
-  };
-
-  // サジェスト候補：入力文字にマッチする街（最大8件）
-  const suggestions = useMemo(() => {
-    if (!townInput) return [];
-    return towns
-      .filter(
-        (t) =>
-          t.name.includes(townInput) ||
-          t.area.includes(townInput) ||
-          t.station.some((s) => s.includes(townInput))
-      )
-      .slice(0, 8);
-  }, [towns, townInput]);
-
-  // 選択中の街オブジェクト
-  const selectedTown = towns.find((t) => t.slug === currentSlug);
-
-  // 街を選択したとき
-  const handleSelectTown = (slug: string, name: string) => {
-    setCurrentSlug(slug);
-    setTownInput(name);
-    setShowSuggestions(false);
-  };
-
-  // クリア
-  const handleClearTown = () => {
-    setCurrentSlug("");
-    setTownInput("");
-    setShowSuggestions(false);
-    townInputRef.current?.focus();
   };
 
   return (
@@ -89,60 +51,19 @@ export default function Home() {
           onToggle={toggleVibe}
         />
 
-        {/* 今住んでる街（インライン入力＋サジェスト型） */}
+        {/* 今住んでる街（フリーテキスト） */}
         <div>
           <label className="block text-sm font-bold mb-1.5 text-foreground">
             今住んでる街
             <span className="text-muted font-normal ml-1.5 text-xs">（任意）</span>
           </label>
-          <div className="relative">
-            <input
-              ref={townInputRef}
-              type="text"
-              placeholder="例: 下北沢、吉祥寺、世田谷..."
-              value={townInput}
-              onChange={(e) => {
-                setTownInput(e.target.value);
-                setCurrentSlug(""); // 手入力中は slug をクリア
-                setShowSuggestions(true);
-              }}
-              onFocus={() => setShowSuggestions(true)}
-              onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-              className="w-full px-4 py-2.5 bg-white border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent pr-8"
-            />
-            {/* クリアボタン */}
-            {townInput && (
-              <button
-                onMouseDown={(e) => { e.preventDefault(); handleClearTown(); }}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 text-lg leading-none"
-              >
-                ×
-              </button>
-            )}
-
-            {/* サジェストドロップダウン */}
-            {showSuggestions && suggestions.length > 0 && (
-              <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-stone-200 rounded-xl shadow-lg z-20 overflow-hidden max-h-52 overflow-y-auto">
-                {suggestions.map((town) => (
-                  <button
-                    key={town.slug}
-                    onMouseDown={() => handleSelectTown(town.slug, town.name)}
-                    className="w-full text-left px-4 py-2.5 text-sm hover:bg-stone-50 transition-colors flex items-center justify-between border-b border-stone-50 last:border-0"
-                  >
-                    <span>{town.name}</span>
-                    <span className="text-xs text-muted">{town.area}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-          {/* 選択確定済みの表示 */}
-          {selectedTown && (
-            <p className="text-xs text-accent mt-1.5 flex items-center gap-1">
-              <span>✓</span>
-              <span>{selectedTown.name}（{selectedTown.area}）を選択中</span>
-            </p>
-          )}
+          <input
+            type="text"
+            placeholder="例: 品川、世田谷、吉祥寺..."
+            value={currentTown}
+            onChange={(e) => setCurrentTown(e.target.value)}
+            className="w-full px-4 py-2.5 bg-white border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent"
+          />
         </div>
 
         {/* 通勤先 */}
