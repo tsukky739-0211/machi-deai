@@ -73,58 +73,69 @@ export default function Home() {
           onToggle={toggleVibe}
         />
 
-        {/* 今住んでる街（ドロップダウン型） */}
+        {/* 今住んでる街（ボトムシート型） */}
         <div>
           <label className="block text-sm font-bold mb-1.5 text-foreground">
             今住んでる街
             <span className="text-muted font-normal ml-1.5 text-xs">（任意）</span>
           </label>
           <button
-            onClick={() => setShowTownList(!showTownList)}
+            onClick={() => setShowTownList(true)}
             className="w-full px-4 py-2.5 bg-white border border-stone-200 rounded-xl text-sm text-left flex items-center justify-between hover:border-stone-300 transition-colors"
           >
             <span className={selectedTown ? "text-foreground" : "text-stone-400"}>
               {selectedTown ? selectedTown.name : "選択してください"}
             </span>
-            <svg
-              className={`w-4 h-4 text-stone-400 transition-transform ${showTownList ? "rotate-180" : ""}`}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+            <svg className="w-4 h-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </button>
+        </div>
 
-          {showTownList && (
-            <div className="mt-1.5 border border-stone-200 rounded-xl bg-white shadow-sm overflow-hidden">
-              <div className="p-2 border-b border-stone-100">
+        {/* ボトムシートモーダル */}
+        {showTownList && (
+          <>
+            {/* 背景オーバーレイ */}
+            <div
+              className="fixed inset-0 bg-black/40 z-40"
+              onClick={() => { setShowTownList(false); setTownSearch(""); }}
+            />
+            {/* シート本体 */}
+            <div className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-2xl shadow-2xl flex flex-col" style={{ maxHeight: "75vh" }}>
+              {/* ヘッダー */}
+              <div className="flex items-center justify-between px-4 pt-4 pb-3 border-b border-stone-100 flex-shrink-0">
+                <span className="text-sm font-bold text-foreground">今住んでる街</span>
+                <button
+                  onClick={() => { setShowTownList(false); setTownSearch(""); }}
+                  className="text-stone-400 text-sm px-2 py-1"
+                >
+                  閉じる
+                </button>
+              </div>
+              {/* 検索ボックス */}
+              <div className="px-4 py-2.5 border-b border-stone-100 flex-shrink-0">
                 <input
                   type="text"
                   placeholder="街名・エリアで検索..."
                   value={townSearch}
                   onChange={(e) => setTownSearch(e.target.value)}
-                  className="w-full px-3 py-1.5 bg-stone-50 rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-accent/30"
+                  className="w-full px-3 py-2 bg-stone-50 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/30"
                   autoFocus
                 />
               </div>
-              {/* 選択中なら解除ボタン */}
-              {currentSlug && (
-                <button
-                  onClick={() => {
-                    setCurrentSlug("");
-                    setShowTownList(false);
-                    setTownSearch("");
-                  }}
-                  className="w-full text-left px-4 py-2 text-sm text-muted hover:bg-stone-50 border-b border-stone-100"
-                >
-                  × 選択を解除
-                </button>
-              )}
-              <div className="max-h-48 overflow-y-auto">
+              {/* リスト */}
+              <div className="overflow-y-auto flex-1">
+                {currentSlug && (
+                  <button
+                    onClick={() => { setCurrentSlug(""); setShowTownList(false); setTownSearch(""); }}
+                    className="w-full text-left px-4 py-3 text-sm text-muted hover:bg-stone-50 border-b border-stone-100"
+                  >
+                    × 選択を解除
+                  </button>
+                )}
                 {[...grouped.entries()].map(([area, areaTowns]) => (
                   <div key={area}>
-                    <div className="px-3 py-1 bg-stone-50 text-[11px] font-medium text-muted sticky top-0">
+                    <div className="px-4 py-1.5 bg-stone-50 text-[11px] font-medium text-muted sticky top-0">
                       {area}
                     </div>
                     {areaTowns.map((town) => (
@@ -135,8 +146,8 @@ export default function Home() {
                           setShowTownList(false);
                           setTownSearch("");
                         }}
-                        className={`w-full text-left px-4 py-2 text-sm hover:bg-stone-50 flex items-center justify-between ${
-                          town.slug === currentSlug ? "bg-orange-50" : ""
+                        className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between border-b border-stone-50 ${
+                          town.slug === currentSlug ? "bg-orange-50" : "hover:bg-stone-50"
                         }`}
                       >
                         <span>{town.name}</span>
@@ -149,8 +160,8 @@ export default function Home() {
                 ))}
               </div>
             </div>
-          )}
-        </div>
+          </>
+        )}
 
         {/* 通勤先 */}
         <StationInput
