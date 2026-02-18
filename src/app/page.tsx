@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { getAllTowns, getCommuteStations } from "@/lib/towns";
 import VibePicker from "@/components/VibePicker";
@@ -16,6 +16,23 @@ export default function Home() {
   const [commuteStation, setCommuteStation] = useState("");
   const [showTownList, setShowTownList] = useState(false);
   const [townSearch, setTownSearch] = useState("");
+  const [keyboardHeight, setKeyboardHeight] = useState(0);
+
+  // スマホキーボード表示時の高さを検知
+  useEffect(() => {
+    if (typeof window === "undefined" || !window.visualViewport) return;
+    const vv = window.visualViewport;
+    const update = () => {
+      const kbHeight = window.innerHeight - vv.height - vv.offsetTop;
+      setKeyboardHeight(Math.max(0, kbHeight));
+    };
+    vv.addEventListener("resize", update);
+    vv.addEventListener("scroll", update);
+    return () => {
+      vv.removeEventListener("resize", update);
+      vv.removeEventListener("scroll", update);
+    };
+  }, []);
 
   const toggleVibe = (vibeId: string) => {
     setSelectedVibes((prev) =>
@@ -101,7 +118,13 @@ export default function Home() {
               onClick={() => { setShowTownList(false); setTownSearch(""); }}
             />
             {/* シート本体 */}
-            <div className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-2xl shadow-2xl flex flex-col" style={{ maxHeight: "75vh" }}>
+            <div
+              className="fixed left-0 right-0 z-50 bg-white rounded-t-2xl shadow-2xl flex flex-col"
+              style={{
+                bottom: keyboardHeight,
+                maxHeight: `calc(75vh - ${keyboardHeight}px)`,
+              }}
+            >
               {/* ヘッダー */}
               <div className="flex items-center justify-between px-4 pt-4 pb-3 border-b border-stone-100 flex-shrink-0">
                 <span className="text-sm font-bold text-foreground">今住んでる街</span>

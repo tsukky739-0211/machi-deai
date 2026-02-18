@@ -72,10 +72,20 @@ export default function TownCard({ town, onTap }: TownCardProps) {
         </div>
 
         {/* 家賃 */}
-        <div className="flex items-center gap-4 text-xs text-white/70">
-          <span>1R {town.avgRent.oneRoom}</span>
-          <span>1K {town.avgRent.oneK}</span>
-          <span>1LDK {town.avgRent.oneLDK}</span>
+        <div className="flex items-center gap-2 text-xs">
+          {[
+            { label: "1R", value: town.avgRent.oneRoom },
+            { label: "1K", value: town.avgRent.oneK },
+            { label: "1LDK", value: town.avgRent.oneLDK },
+          ].map(({ label, value }) => (
+            <span
+              key={label}
+              className="px-2.5 py-1 bg-black/40 backdrop-blur-sm rounded-full flex items-center gap-1"
+            >
+              <span className="text-white/60">{label}</span>
+              <span className="text-white font-semibold">{value}</span>
+            </span>
+          ))}
         </div>
 
         {/* タップ誘導 */}

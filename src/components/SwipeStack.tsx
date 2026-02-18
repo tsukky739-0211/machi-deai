@@ -76,6 +76,26 @@ export default function SwipeStack({ towns }: SwipeStackProps) {
     }, 200);
   }, []);
 
+  // キーボード操作（PC向け）
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (currentIndex >= towns.length) return;
+      if (e.key === "ArrowLeft") {
+        // 左矢印 → スキップ
+        setExitDirection("left");
+        setTimeout(() => {
+          setCurrentIndex((prev) => prev + 1);
+          setExitDirection(null);
+        }, 200);
+      } else if (e.key === "ArrowRight") {
+        // 右矢印 → 詳しく見る
+        router.push(`/town/${towns[currentIndex].slug}`);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex, towns, router]);
+
   if (currentIndex >= towns.length) {
     return (
       <div className="flex flex-col items-center justify-center h-[70vh] text-center px-6">
@@ -158,19 +178,29 @@ export default function SwipeStack({ towns }: SwipeStackProps) {
       </div>
 
       {/* アクションボタン */}
-      <div className="mt-4 flex items-center gap-3">
-        <button
-          onClick={handleNextButton}
-          className="px-6 py-2.5 bg-stone-200 text-stone-600 rounded-full text-sm font-medium hover:bg-stone-300 transition-colors"
-        >
-          スキップ →
-        </button>
-        <button
-          onClick={() => handleTap(currentTown.slug)}
-          className="px-6 py-2.5 bg-accent text-white rounded-full text-sm font-medium hover:bg-orange-600 transition-colors"
-        >
+      <div className="mt-4 flex flex-col items-center gap-2">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={handleNextButton}
+            className="px-6 py-2.5 bg-stone-200 text-stone-600 rounded-full text-sm font-medium hover:bg-stone-300 transition-colors"
+          >
+            スキップ →
+          </button>
+          <button
+            onClick={() => handleTap(currentTown.slug)}
+            className="px-6 py-2.5 bg-accent text-white rounded-full text-sm font-medium hover:bg-orange-600 transition-colors"
+          >
+            詳しく見る
+          </button>
+        </div>
+        {/* PCキーボードヒント */}
+        <p className="hidden md:flex items-center gap-2 text-[11px] text-stone-400">
+          <span className="px-1.5 py-0.5 bg-stone-100 rounded text-stone-500 font-mono">←</span>
+          スキップ
+          <span className="mx-1">·</span>
+          <span className="px-1.5 py-0.5 bg-stone-100 rounded text-stone-500 font-mono">→</span>
           詳しく見る
-        </button>
+        </p>
       </div>
     </div>
   );
