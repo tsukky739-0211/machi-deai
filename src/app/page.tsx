@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useMemo, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { getAllTowns, getCommuteStations } from "@/lib/towns";
 import VibePicker from "@/components/VibePicker";
@@ -14,25 +14,11 @@ export default function Home() {
   const [selectedVibes, setSelectedVibes] = useState<string[]>([]);
   const [currentSlug, setCurrentSlug] = useState<string>("");
   const [commuteStation, setCommuteStation] = useState("");
-  const [showTownList, setShowTownList] = useState(false);
-  const [townSearch, setTownSearch] = useState("");
-  const [keyboardHeight, setKeyboardHeight] = useState(0);
 
-  // スマホキーボード表示時の高さを検知
-  useEffect(() => {
-    if (typeof window === "undefined" || !window.visualViewport) return;
-    const vv = window.visualViewport;
-    const update = () => {
-      const kbHeight = window.innerHeight - vv.height - vv.offsetTop;
-      setKeyboardHeight(Math.max(0, kbHeight));
-    };
-    vv.addEventListener("resize", update);
-    vv.addEventListener("scroll", update);
-    return () => {
-      vv.removeEventListener("resize", update);
-      vv.removeEventListener("scroll", update);
-    };
-  }, []);
+  // 今住んでる街：直接入力型
+  const [townInput, setTownInput] = useState("");
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const townInputRef = useRef<HTMLInputElement>(null);
 
   const toggleVibe = (vibeId: string) => {
     setSelectedVibes((prev) =>
@@ -50,23 +36,36 @@ export default function Home() {
     router.push(`/discover?${params.toString()}`);
   };
 
+  // サジェスト候補：入力文字にマッチする街（最大8件）
+  const suggestions = useMemo(() => {
+    if (!townInput) return [];
+    return towns
+      .filter(
+        (t) =>
+          t.name.includes(townInput) ||
+          t.area.includes(townInput) ||
+          t.station.some((s) => s.includes(townInput))
+      )
+      .slice(0, 8);
+  }, [towns, townInput]);
+
+  // 選択中の街オブジェクト
   const selectedTown = towns.find((t) => t.slug === currentSlug);
 
-  const filteredTowns = townSearch
-    ? towns.filter(
-        (t) =>
-          t.name.includes(townSearch) ||
-          t.area.includes(townSearch) ||
-          t.station.some((s) => s.includes(townSearch))
-      )
-    : towns;
+  // 街を選択したとき
+  const handleSelectTown = (slug: string, name: string) => {
+    setCurrentSlug(slug);
+    setTownInput(name);
+    setShowSuggestions(false);
+  };
 
-  // エリアごとにグルーピング
-  const grouped = new Map<string, typeof towns>();
-  for (const town of filteredTowns) {
-    if (!grouped.has(town.area)) grouped.set(town.area, []);
-    grouped.get(town.area)!.push(town);
-  }
+  // クリア
+  const handleClearTown = () => {
+    setCurrentSlug("");
+    setTownInput("");
+    setShowSuggestions(false);
+    townInputRef.current?.focus();
+  };
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -90,101 +89,61 @@ export default function Home() {
           onToggle={toggleVibe}
         />
 
-        {/* 今住んでる街（ボトムシート型） */}
+        {/* 今住んでる街（インライン入力＋サジェスト型） */}
         <div>
           <label className="block text-sm font-bold mb-1.5 text-foreground">
             今住んでる街
             <span className="text-muted font-normal ml-1.5 text-xs">（任意）</span>
           </label>
-          <button
-            onClick={() => setShowTownList(true)}
-            className="w-full px-4 py-2.5 bg-white border border-stone-200 rounded-xl text-sm text-left flex items-center justify-between hover:border-stone-300 transition-colors"
-          >
-            <span className={selectedTown ? "text-foreground" : "text-stone-400"}>
-              {selectedTown ? selectedTown.name : "選択してください"}
-            </span>
-            <svg className="w-4 h-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-        </div>
-
-        {/* ボトムシートモーダル */}
-        {showTownList && (
-          <>
-            {/* 背景オーバーレイ */}
-            <div
-              className="fixed inset-0 bg-black/40 z-40"
-              onClick={() => { setShowTownList(false); setTownSearch(""); }}
-            />
-            {/* シート本体 */}
-            <div
-              className="fixed left-0 right-0 z-50 bg-white rounded-t-2xl shadow-2xl flex flex-col"
-              style={{
-                bottom: keyboardHeight,
-                maxHeight: `calc(75vh - ${keyboardHeight}px)`,
+          <div className="relative">
+            <input
+              ref={townInputRef}
+              type="text"
+              placeholder="例: 下北沢、吉祥寺、世田谷..."
+              value={townInput}
+              onChange={(e) => {
+                setTownInput(e.target.value);
+                setCurrentSlug(""); // 手入力中は slug をクリア
+                setShowSuggestions(true);
               }}
-            >
-              {/* ヘッダー */}
-              <div className="flex items-center justify-between px-4 pt-4 pb-3 border-b border-stone-100 flex-shrink-0">
-                <span className="text-sm font-bold text-foreground">今住んでる街</span>
-                <button
-                  onClick={() => { setShowTownList(false); setTownSearch(""); }}
-                  className="text-stone-400 text-sm px-2 py-1"
-                >
-                  閉じる
-                </button>
-              </div>
-              {/* 検索ボックス */}
-              <div className="px-4 py-2.5 border-b border-stone-100 flex-shrink-0">
-                <input
-                  type="text"
-                  placeholder="街名・エリアで検索..."
-                  value={townSearch}
-                  onChange={(e) => setTownSearch(e.target.value)}
-                  className="w-full px-3 py-2 bg-stone-50 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/30"
-                  autoFocus
-                />
-              </div>
-              {/* リスト */}
-              <div className="overflow-y-auto flex-1">
-                {currentSlug && (
+              onFocus={() => setShowSuggestions(true)}
+              onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+              className="w-full px-4 py-2.5 bg-white border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent pr-8"
+            />
+            {/* クリアボタン */}
+            {townInput && (
+              <button
+                onMouseDown={(e) => { e.preventDefault(); handleClearTown(); }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 text-lg leading-none"
+              >
+                ×
+              </button>
+            )}
+
+            {/* サジェストドロップダウン */}
+            {showSuggestions && suggestions.length > 0 && (
+              <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-stone-200 rounded-xl shadow-lg z-20 overflow-hidden max-h-52 overflow-y-auto">
+                {suggestions.map((town) => (
                   <button
-                    onClick={() => { setCurrentSlug(""); setShowTownList(false); setTownSearch(""); }}
-                    className="w-full text-left px-4 py-3 text-sm text-muted hover:bg-stone-50 border-b border-stone-100"
+                    key={town.slug}
+                    onMouseDown={() => handleSelectTown(town.slug, town.name)}
+                    className="w-full text-left px-4 py-2.5 text-sm hover:bg-stone-50 transition-colors flex items-center justify-between border-b border-stone-50 last:border-0"
                   >
-                    × 選択を解除
+                    <span>{town.name}</span>
+                    <span className="text-xs text-muted">{town.area}</span>
                   </button>
-                )}
-                {[...grouped.entries()].map(([area, areaTowns]) => (
-                  <div key={area}>
-                    <div className="px-4 py-1.5 bg-stone-50 text-[11px] font-medium text-muted sticky top-0">
-                      {area}
-                    </div>
-                    {areaTowns.map((town) => (
-                      <button
-                        key={town.slug}
-                        onClick={() => {
-                          setCurrentSlug(town.slug === currentSlug ? "" : town.slug);
-                          setShowTownList(false);
-                          setTownSearch("");
-                        }}
-                        className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between border-b border-stone-50 ${
-                          town.slug === currentSlug ? "bg-orange-50" : "hover:bg-stone-50"
-                        }`}
-                      >
-                        <span>{town.name}</span>
-                        {town.slug === currentSlug && (
-                          <span className="text-accent text-xs">✓</span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
                 ))}
               </div>
-            </div>
-          </>
-        )}
+            )}
+          </div>
+          {/* 選択確定済みの表示 */}
+          {selectedTown && (
+            <p className="text-xs text-accent mt-1.5 flex items-center gap-1">
+              <span>✓</span>
+              <span>{selectedTown.name}（{selectedTown.area}）を選択中</span>
+            </p>
+          )}
+        </div>
 
         {/* 通勤先 */}
         <StationInput
