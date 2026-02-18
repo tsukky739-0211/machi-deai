@@ -1,0 +1,1175 @@
+[
+  {
+    "slug": "shin-maruko",
+    "name": "新丸子",
+    "area": "川崎市中原区",
+    "station": [
+      "新丸子駅"
+    ],
+    "lines": [
+      "東急東横線",
+      "東急目黒線"
+    ],
+    "catchcopy": "多摩川と商店街、素顔の暮らし",
+    "description": "武蔵小杉の隣駅ながら、昔ながらの商店街と個人店が残る穏やかな空気。多摩川の河川敷まで徒歩圏内で、ランニングやピクニックが日常に溶け込む。東横線で渋谷まで直通、派手さはないが暮らしの満足度が高い隠れた良駅。",
+    "vibe": [
+      "下町",
+      "商店街",
+      "多摩川",
+      "穏やか",
+      "コスパ"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "6.2万",
+      "oneK": "7.5万",
+      "oneLDK": "11.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 18,
+      "新宿": 28,
+      "東京": 35,
+      "池袋": 35,
+      "品川": 25
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "新丸子駅前商店街",
+        "category": "ショッピング",
+        "description": "八百屋・魚屋・惣菜店が並ぶ生活感あふれるメインストリート",
+        "icon": "🛒"
+      },
+      {
+        "rank": 9,
+        "name": "多摩川河川敷",
+        "category": "自然",
+        "description": "広大な芝生広場とランニングコースが続く憩いの場",
+        "icon": "🏞️"
+      },
+      {
+        "rank": 8,
+        "name": "丸子橋",
+        "category": "ランドマーク",
+        "description": "多摩川に架かるアーチ橋。夕焼けの名所",
+        "icon": "🌉"
+      },
+      {
+        "rank": 7,
+        "name": "三ちゃん食堂",
+        "category": "グルメ",
+        "description": "昼飲みの聖地として愛される昭和の大衆食堂",
+        "icon": "🍺"
+      },
+      {
+        "rank": 6,
+        "name": "中原平和公園",
+        "category": "自然",
+        "description": "遊具と緑が豊富なファミリー向けの大きな公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 5,
+        "name": "丸子山王日枝神社",
+        "category": "寺社",
+        "description": "地域の氏神様。秋の例大祭は街の一大イベント",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 4,
+        "name": "イダイモール商店街",
+        "category": "ショッピング",
+        "description": "日本医科大学由来の名を持つアーケード商店街",
+        "icon": "🏪"
+      },
+      {
+        "rank": 3,
+        "name": "多摩川花火大会",
+        "category": "イベント",
+        "description": "夏の夜空を彩る約6000発の花火を間近で観覧",
+        "icon": "🎆"
+      },
+      {
+        "rank": 2,
+        "name": "KOSUGI CURRY",
+        "category": "グルメ",
+        "description": "スパイスカレーの名店。行列ができる人気店",
+        "icon": "🍛"
+      },
+      {
+        "rank": 1,
+        "name": "多摩川沿いの夕暮れ散歩",
+        "category": "自然",
+        "description": "日常の中にある最高の贅沢、川風と夕焼け",
+        "icon": "🌅"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+    "colorFrom": "#059669",
+    "colorTo": "#34d399",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/kanagawa/ek_24720/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%96%B0%E4%B8%B8%E5%AD%90/"
+    }
+  },
+  {
+    "slug": "musashi-shinjo",
+    "name": "武蔵新城",
+    "area": "川崎市中原区",
+    "station": [
+      "武蔵新城駅"
+    ],
+    "lines": [
+      "JR南武線"
+    ],
+    "catchcopy": "飾らない日常が、ちょうどいい",
+    "description": "南武線沿線の中でも特に庶民的で、チェーン店と個人店が入り混じる親しみやすい商店街が駅前に広がる。家賃の安さと生活利便性のバランスが良く、初めての一人暮らしにも手堅い選択。川崎・武蔵小杉へも近い生活拠点。",
+    "vibe": [
+      "庶民的",
+      "商店街",
+      "コスパ",
+      "生活便利",
+      "静か"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "10.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 33,
+      "新宿": 40,
+      "東京": 45,
+      "池袋": 48,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "武蔵新城駅前商店街",
+        "category": "ショッピング",
+        "description": "南北に延びる庶民派商店街。飲食店が充実",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 9,
+        "name": "新城テラス",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設。日常の買い物に便利",
+        "icon": "🏬"
+      },
+      {
+        "rank": 8,
+        "name": "等々力緑地",
+        "category": "自然",
+        "description": "陸上競技場やプールもある広大な総合公園",
+        "icon": "🌿"
+      },
+      {
+        "rank": 7,
+        "name": "二ヶ領用水",
+        "category": "自然",
+        "description": "春は桜並木が美しい歴史ある用水路沿いの遊歩道",
+        "icon": "🌸"
+      },
+      {
+        "rank": 6,
+        "name": "ホルモン大和",
+        "category": "グルメ",
+        "description": "地元民に愛されるホルモン焼きの名店",
+        "icon": "🥩"
+      },
+      {
+        "rank": 5,
+        "name": "川崎市民プラザ",
+        "category": "文化・アート",
+        "description": "ホールやギャラリーを備えた市民の文化拠点",
+        "icon": "🎭"
+      },
+      {
+        "rank": 4,
+        "name": "武蔵新城あいもーる",
+        "category": "ショッピング",
+        "description": "アーケード付き商店街。雨の日も快適に買い物",
+        "icon": "☂️"
+      },
+      {
+        "rank": 3,
+        "name": "新城神社",
+        "category": "寺社",
+        "description": "地元の守り神。初詣や七五三で賑わう",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 2,
+        "name": "大戸屋 武蔵新城店",
+        "category": "グルメ",
+        "description": "大戸屋の発祥に近い地。定食文化の象徴",
+        "icon": "🍱"
+      },
+      {
+        "rank": 1,
+        "name": "商店街の夕暮れ時",
+        "category": "ランドマーク",
+        "description": "仕事帰りに総菜を買う、何気ない幸福の風景",
+        "icon": "🏮"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80",
+    "colorFrom": "#d97706",
+    "colorTo": "#fbbf24",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/kanagawa/ek_22620/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%AD%A6%E8%94%B5%E6%96%B0%E5%9F%8E/"
+    }
+  },
+  {
+    "slug": "mizonokuchi",
+    "name": "溝の口",
+    "area": "川崎市高津区",
+    "station": [
+      "溝の口駅",
+      "武蔵溝ノ口駅"
+    ],
+    "lines": [
+      "東急田園都市線",
+      "東急大井町線",
+      "JR南武線"
+    ],
+    "catchcopy": "3路線が交わる、川崎の台所",
+    "description": "東急とJRが交差するターミナル駅。駅前には大型商業施設とディープな飲み屋街が共存し、昼も夜も活気が絶えない。再開発で整備された南口と、昭和の香り残す西口の対比が面白い。通勤利便性と生活コスパを両立する実力派の街。",
+    "vibe": [
+      "ターミナル",
+      "飲み屋街",
+      "活気",
+      "再開発",
+      "コスパ"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "6.5万",
+      "oneK": "7.8万",
+      "oneLDK": "12.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "社会人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 17,
+      "新宿": 30,
+      "東京": 35,
+      "池袋": 37,
+      "品川": 28
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "ノクティプラザ",
+        "category": "ショッピング",
+        "description": "駅直結の大型商業施設。マルイやスーパーが入居",
+        "icon": "🏬"
+      },
+      {
+        "rank": 9,
+        "name": "溝の口駅西口商店街",
+        "category": "グルメ",
+        "description": "昭和の飲み屋横丁。はしご酒の聖地",
+        "icon": "🍶"
+      },
+      {
+        "rank": 8,
+        "name": "大山街道",
+        "category": "ランドマーク",
+        "description": "江戸時代から続く歴史ある旧街道沿いの商店街",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 7,
+        "name": "久本薬医門公園",
+        "category": "自然",
+        "description": "武家屋敷の薬医門が残る静かな歴史公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 6,
+        "name": "ポレポレ",
+        "category": "グルメ",
+        "description": "溝の口の老舗喫茶。モーニングが人気",
+        "icon": "☕"
+      },
+      {
+        "rank": 5,
+        "name": "川崎市市民ミュージアム",
+        "category": "文化・アート",
+        "description": "漫画・映像・美術の複合ミュージアム",
+        "icon": "🖼️"
+      },
+      {
+        "rank": 4,
+        "name": "洗足学園音楽大学",
+        "category": "文化・アート",
+        "description": "キャンパス内のコンサートが地域に開放",
+        "icon": "🎵"
+      },
+      {
+        "rank": 3,
+        "name": "溝口神社",
+        "category": "寺社",
+        "description": "街の氏神。七五三や初詣で賑わう歴史ある神社",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 2,
+        "name": "二子玉川公園",
+        "category": "自然",
+        "description": "多摩川沿いの開放的な公園。電車で1駅の距離",
+        "icon": "🏞️"
+      },
+      {
+        "rank": 1,
+        "name": "西口の赤提灯の灯り",
+        "category": "グルメ",
+        "description": "仕事帰りに吸い込まれる、あの横丁の誘惑",
+        "icon": "🏮"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
+    "colorFrom": "#dc2626",
+    "colorTo": "#f87171",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/kanagawa/ek_24820/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%BA%9D%E3%81%AE%E5%8F%A3/"
+    }
+  },
+  {
+    "slug": "urawa",
+    "name": "浦和",
+    "area": "さいたま市浦和区",
+    "station": [
+      "浦和駅"
+    ],
+    "lines": [
+      "JR京浜東北線",
+      "JR宇都宮線",
+      "JR湘南新宿ライン",
+      "JR上野東京ライン"
+    ],
+    "catchcopy": "文教の街に、赤い情熱が宿る",
+    "description": "「浦和高校」「浦和一女」など名門校が集まる文教都市であり、浦和レッズの本拠地でもある。駅前の伊勢丹やアトレで買い物も充実し、品の良い住宅街が広がる。東京駅まで乗り換えなし30分の通勤利便性も強み。",
+    "vibe": [
+      "文教",
+      "サッカー",
+      "落ち着き",
+      "品がいい",
+      "便利"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.5万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "カップル",
+      "社会人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 40,
+      "新宿": 30,
+      "東京": 30,
+      "池袋": 25,
+      "品川": 38
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "浦和伊勢丹",
+        "category": "ショッピング",
+        "description": "駅西口の老舗百貨店。浦和マダムの社交場",
+        "icon": "🏬"
+      },
+      {
+        "rank": 9,
+        "name": "浦和レッドダイヤモンズ",
+        "category": "スポーツ",
+        "description": "熱狂的サポーターで知られるJリーグの名門クラブ",
+        "icon": "⚽"
+      },
+      {
+        "rank": 8,
+        "name": "埼玉スタジアム2002",
+        "category": "スポーツ",
+        "description": "6万人収容のサッカー専用スタジアム。浦和の聖地",
+        "icon": "🏟️"
+      },
+      {
+        "rank": 7,
+        "name": "調神社",
+        "category": "寺社",
+        "description": "鳥居のない珍しい神社。狛兎がシンボル",
+        "icon": "🐰"
+      },
+      {
+        "rank": 6,
+        "name": "玉蔵院",
+        "category": "寺社",
+        "description": "しだれ桜の名所。春の美しさは圧巻",
+        "icon": "🌸"
+      },
+      {
+        "rank": 5,
+        "name": "浦和うなぎ",
+        "category": "グルメ",
+        "description": "江戸時代からの鰻の名産地。老舗が点在",
+        "icon": "🐟"
+      },
+      {
+        "rank": 4,
+        "name": "アトレ浦和",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設。通勤帰りの買い物に最適",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 3,
+        "name": "別所沼公園",
+        "category": "自然",
+        "description": "メタセコイア並木が美しい水辺の公園。ジョギングコースあり",
+        "icon": "🌿"
+      },
+      {
+        "rank": 2,
+        "name": "北浦和公園",
+        "category": "自然",
+        "description": "県立近代美術館が隣接する緑豊かな文化公園",
+        "icon": "🎨"
+      },
+      {
+        "rank": 1,
+        "name": "試合の日の街全体の赤",
+        "category": "イベント",
+        "description": "レッズの試合日、街中が赤一色に染まる一体感",
+        "icon": "🔴"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80",
+    "colorFrom": "#b91c1c",
+    "colorTo": "#ef4444",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/saitama/ek_27110/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%B5%A6%E5%92%8C/"
+    }
+  },
+  {
+    "slug": "nishi-kokubunji",
+    "name": "西国分寺",
+    "area": "国分寺市",
+    "station": [
+      "西国分寺駅"
+    ],
+    "lines": [
+      "JR中央線",
+      "JR武蔵野線"
+    ],
+    "catchcopy": "武蔵野の森と、古の記憶の交差点",
+    "description": "中央線と武蔵野線の乗換駅でありながら、駅周辺は落ち着いた住宅街。武蔵国分寺跡や殿ヶ谷戸庭園など歴史と自然が色濃く残る。派手さはないが、武蔵野の豊かな緑に囲まれた暮らしを求める人にとっての理想郷。",
+    "vibe": [
+      "自然",
+      "歴史",
+      "静か",
+      "武蔵野",
+      "穏やか"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.0万",
+      "oneK": "6.2万",
+      "oneLDK": "9.5万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "自然派"
+    ],
+    "commuteMinutes": {
+      "渋谷": 42,
+      "新宿": 30,
+      "東京": 40,
+      "池袋": 40,
+      "品川": 50
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "武蔵国分寺跡",
+        "category": "ランドマーク",
+        "description": "奈良時代に建立された国分寺の遺跡。国の史跡",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 9,
+        "name": "殿ヶ谷戸庭園",
+        "category": "自然",
+        "description": "湧水と紅葉が美しい国指定名勝の回遊式庭園",
+        "icon": "🍁"
+      },
+      {
+        "rank": 8,
+        "name": "お鷹の道・真姿の池湧水群",
+        "category": "自然",
+        "description": "環境省選定の名水百選。武蔵野の湧水を歩く",
+        "icon": "💧"
+      },
+      {
+        "rank": 7,
+        "name": "武蔵国分寺公園",
+        "category": "自然",
+        "description": "広大な芝生広場と噴水がある市民の憩いの場",
+        "icon": "🌳"
+      },
+      {
+        "rank": 6,
+        "name": "国分寺市立歴史公園",
+        "category": "文化・アート",
+        "description": "国分尼寺跡を整備した歴史学習の場",
+        "icon": "📖"
+      },
+      {
+        "rank": 5,
+        "name": "リオンホール",
+        "category": "文化・アート",
+        "description": "クラシックコンサートが楽しめる音響設計のホール",
+        "icon": "🎶"
+      },
+      {
+        "rank": 4,
+        "name": "nonowa西国分寺",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設。カフェやベーカリーが充実",
+        "icon": "🛒"
+      },
+      {
+        "rank": 3,
+        "name": "クルミドコーヒー",
+        "category": "カフェ",
+        "description": "西国分寺の名物カフェ。胡桃をモチーフにした空間",
+        "icon": "☕"
+      },
+      {
+        "rank": 2,
+        "name": "姿見の池",
+        "category": "自然",
+        "description": "鎌倉時代の伝説が残る復元された池と緑地",
+        "icon": "🪷"
+      },
+      {
+        "rank": 1,
+        "name": "湧水の音が聞こえる散歩道",
+        "category": "自然",
+        "description": "武蔵野台地から湧き出す水の音に耳を澄ます時間",
+        "icon": "🌊"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1504700610630-ac6ebe902ce0?w=800&q=80",
+    "colorFrom": "#15803d",
+    "colorTo": "#4ade80",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_20850/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E8%A5%BF%E5%9B%BD%E5%88%86%E5%AF%BA/"
+    }
+  },
+  {
+    "slug": "higashi-nakano",
+    "name": "東中野",
+    "area": "中野区",
+    "station": [
+      "東中野駅"
+    ],
+    "lines": [
+      "JR中央・総武線",
+      "都営大江戸線"
+    ],
+    "catchcopy": "新宿至近、静けさという贅沢",
+    "description": "新宿から2駅・5分という好立地ながら、駅前は落ち着いた雰囲気。桜並木が美しい神田川沿いの遊歩道、ミニシアター「ポレポレ東中野」など、都心の喧騒を忘れさせる文化的な暮らしがある。大江戸線も使える二路線アクセス。",
+    "vibe": [
+      "静か",
+      "都心近接",
+      "カルチャー",
+      "桜",
+      "穴場"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "7.0万",
+      "oneK": "8.5万",
+      "oneLDK": "13.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "社会人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 18,
+      "新宿": 5,
+      "東京": 20,
+      "池袋": 15,
+      "品川": 25
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "ポレポレ東中野",
+        "category": "文化・アート",
+        "description": "ドキュメンタリーに強い個性派ミニシアター",
+        "icon": "🎬"
+      },
+      {
+        "rank": 9,
+        "name": "神田川桜並木",
+        "category": "自然",
+        "description": "川沿いに続く桜のトンネル。春の絶景スポット",
+        "icon": "🌸"
+      },
+      {
+        "rank": 8,
+        "name": "アトレヴィ東中野",
+        "category": "ショッピング",
+        "description": "駅直結のコンパクトな商業施設。日常使いに便利",
+        "icon": "🛒"
+      },
+      {
+        "rank": 7,
+        "name": "中野氷川神社",
+        "category": "寺社",
+        "description": "中野の総鎮守。境内の静けさが心地よい",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 6,
+        "name": "東中野ギンザ通り商店街",
+        "category": "ショッピング",
+        "description": "昔ながらの個人店が並ぶ生活密着型商店街",
+        "icon": "🏪"
+      },
+      {
+        "rank": 5,
+        "name": "落合公園",
+        "category": "自然",
+        "description": "遊具と水遊び場がある地域の憩いの公園",
+        "icon": "🌿"
+      },
+      {
+        "rank": 4,
+        "name": "ユニゾンスクエアガーデン",
+        "category": "ランドマーク",
+        "description": "大江戸線側に広がる緑のオープンスペース",
+        "icon": "🏙️"
+      },
+      {
+        "rank": 3,
+        "name": "パラダイスロード",
+        "category": "グルメ",
+        "description": "隠れ家的なバーやレストランが点在する小道",
+        "icon": "🍷"
+      },
+      {
+        "rank": 2,
+        "name": "中野ブロードウェイ",
+        "category": "ショッピング",
+        "description": "サブカルの殿堂。中野駅まで歩いてすぐ",
+        "icon": "🎮"
+      },
+      {
+        "rank": 1,
+        "name": "神田川の夕暮れ散歩",
+        "category": "自然",
+        "description": "都心にいることを忘れる、静かな川沿いの時間",
+        "icon": "🌆"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80",
+    "colorFrom": "#6366f1",
+    "colorTo": "#a5b4fc",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_20430/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%9D%B1%E4%B8%AD%E9%87%8E/"
+    }
+  },
+  {
+    "slug": "honancho",
+    "name": "方南町",
+    "area": "杉並区",
+    "station": [
+      "方南町駅"
+    ],
+    "lines": [
+      "東京メトロ丸ノ内線"
+    ],
+    "catchcopy": "丸ノ内線の終着駅、始まりの街",
+    "description": "丸ノ内線方南町支線の終点。始発駅なので朝の通勤は座って新宿へ向かえる穴場。駅前の方南銀座商店街は活気ある庶民派で、善福寺川沿いの緑道は散歩やジョギングに最適。杉並区の落ち着いた住宅街に暮らす安心感。",
+    "vibe": [
+      "始発駅",
+      "商店街",
+      "穴場",
+      "住宅街",
+      "のんびり"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "6.5万",
+      "oneK": "7.8万",
+      "oneLDK": "12.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 25,
+      "新宿": 15,
+      "東京": 28,
+      "池袋": 22,
+      "品川": 35
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "方南銀座商店街",
+        "category": "ショッピング",
+        "description": "惣菜屋・八百屋が軒を連ねる活気ある商店街",
+        "icon": "🛒"
+      },
+      {
+        "rank": 9,
+        "name": "善福寺川緑地",
+        "category": "自然",
+        "description": "川沿いに続く緑道。桜の時期は圧巻の美しさ",
+        "icon": "🌸"
+      },
+      {
+        "rank": 8,
+        "name": "和泉熊野神社",
+        "category": "寺社",
+        "description": "源義家ゆかりの歴史ある神社。静かな境内",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 7,
+        "name": "方南町駅（始発）",
+        "category": "ランドマーク",
+        "description": "朝の通勤で確実に座れる丸ノ内線の始発駅",
+        "icon": "🚃"
+      },
+      {
+        "rank": 6,
+        "name": "蚕糸の森公園",
+        "category": "自然",
+        "description": "旧蚕糸試験場跡地の静かな公園。噴水がシンボル",
+        "icon": "🌿"
+      },
+      {
+        "rank": 5,
+        "name": "環七ラーメン街道",
+        "category": "グルメ",
+        "description": "環七沿いにラーメン店が点在。名店巡りが楽しめる",
+        "icon": "🍜"
+      },
+      {
+        "rank": 4,
+        "name": "立正佼成会大聖堂",
+        "category": "ランドマーク",
+        "description": "巨大なドーム屋根が目を引く壮大な宗教建築",
+        "icon": "🕌"
+      },
+      {
+        "rank": 3,
+        "name": "大宮八幡宮",
+        "category": "寺社",
+        "description": "「東京のへそ」と呼ばれる杉並の大社。緑に囲まれた広い境内",
+        "icon": "🌲"
+      },
+      {
+        "rank": 2,
+        "name": "方南カフェ",
+        "category": "カフェ",
+        "description": "地元の人が集うアットホームなコミュニティカフェ",
+        "icon": "☕"
+      },
+      {
+        "rank": 1,
+        "name": "始発電車で座れる朝の幸せ",
+        "category": "ランドマーク",
+        "description": "これが方南町住民だけの特権、座って都心へ",
+        "icon": "💺"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800&q=80",
+    "colorFrom": "#0891b2",
+    "colorTo": "#67e8f9",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_05050/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%96%B9%E5%8D%97%E7%94%BA/"
+    }
+  },
+  {
+    "slug": "senkawa",
+    "name": "千川",
+    "area": "豊島区",
+    "station": [
+      "千川駅"
+    ],
+    "lines": [
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線"
+    ],
+    "catchcopy": "池袋の裏側、知る人ぞ知る静寂",
+    "description": "池袋から1駅・2分。有楽町線と副都心線の2路線が使え、渋谷方面にも一本で行ける抜群のアクセス。それでいて駅周辺は静かな住宅街で家賃も控えめ。池袋の喧騒から一歩引いた、大人の穴場エリア。",
+    "vibe": [
+      "穴場",
+      "静か",
+      "池袋近い",
+      "コスパ",
+      "住宅街"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "6.5万",
+      "oneK": "7.8万",
+      "oneLDK": "11.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "社会人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 18,
+      "新宿": 15,
+      "東京": 22,
+      "池袋": 2,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "千川通り",
+        "category": "ランドマーク",
+        "description": "桜やイチョウの街路樹が季節を彩る駅前通り",
+        "icon": "🌳"
+      },
+      {
+        "rank": 9,
+        "name": "長崎神社",
+        "category": "寺社",
+        "description": "椎名町・千川エリアの氏神。静かな佇まい",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 8,
+        "name": "千早フラワー公園",
+        "category": "自然",
+        "description": "花壇が美しい地域の小さな憩いの公園",
+        "icon": "🌻"
+      },
+      {
+        "rank": 7,
+        "name": "東京芸術劇場",
+        "category": "文化・アート",
+        "description": "池袋まで歩いてすぐ。世界レベルの公演が楽しめる",
+        "icon": "🎭"
+      },
+      {
+        "rank": 6,
+        "name": "立教大学周辺",
+        "category": "カフェ",
+        "description": "レンガ造りのキャンパス周辺におしゃれカフェが点在",
+        "icon": "☕"
+      },
+      {
+        "rank": 5,
+        "name": "豊島区立熊谷守一美術館",
+        "category": "文化・アート",
+        "description": "画家・熊谷守一の作品を集めた小さな私設美術館",
+        "icon": "🎨"
+      },
+      {
+        "rank": 4,
+        "name": "千川駅前の個人商店",
+        "category": "ショッピング",
+        "description": "パン屋・花屋・惣菜屋が並ぶ小さな商店の集まり",
+        "icon": "🏪"
+      },
+      {
+        "rank": 3,
+        "name": "Sunshine City",
+        "category": "ショッピング",
+        "description": "池袋サンシャインシティ。水族館も展望台もすぐ",
+        "icon": "🏙️"
+      },
+      {
+        "rank": 2,
+        "name": "トキワ荘マンガミュージアム",
+        "category": "文化・アート",
+        "description": "手塚治虫ら漫画家が暮らした伝説のアパート復元施設",
+        "icon": "📚"
+      },
+      {
+        "rank": 1,
+        "name": "池袋1駅の安心感",
+        "category": "ランドマーク",
+        "description": "何でも揃う池袋が庭。でも住むのは静かな千川",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "colorFrom": "#7c3aed",
+    "colorTo": "#c4b5fd",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_05410/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E5%8D%83%E5%B7%9D/"
+    }
+  },
+  {
+    "slug": "kanamecho",
+    "name": "要町",
+    "area": "豊島区",
+    "station": [
+      "要町駅"
+    ],
+    "lines": [
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線"
+    ],
+    "catchcopy": "池袋を使いこなす、裏ポジションの知恵",
+    "description": "池袋から有楽町線で1駅。千川の隣駅で、同じく静かな住宅街が広がる。池袋西口エリアの再開発の恩恵を受けつつ、駅周辺は落ち着いた雰囲気を保つ。立教大学も徒歩圏で学生街の活気もほどよくミックスされた穴場。",
+    "vibe": [
+      "穴場",
+      "池袋近い",
+      "学生街",
+      "静か",
+      "住宅街"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "6.8万",
+      "oneK": "8.0万",
+      "oneLDK": "12.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "社会人",
+      "学生"
+    ],
+    "commuteMinutes": {
+      "渋谷": 16,
+      "新宿": 13,
+      "東京": 20,
+      "池袋": 2,
+      "品川": 28
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "立教大学",
+        "category": "ランドマーク",
+        "description": "赤レンガとツタが美しいキャンパス。一般も散策可能",
+        "icon": "🏫"
+      },
+      {
+        "rank": 9,
+        "name": "要町通り商店街",
+        "category": "ショッピング",
+        "description": "飲食店やコンビニが並ぶ生活に便利な通り",
+        "icon": "🏪"
+      },
+      {
+        "rank": 8,
+        "name": "祥雲寺",
+        "category": "寺社",
+        "description": "要町の静かな寺院。境内の緑が心落ち着く",
+        "icon": "🌿"
+      },
+      {
+        "rank": 7,
+        "name": "西池袋公園",
+        "category": "自然",
+        "description": "立教大学近くの緑地。春は桜が美しい",
+        "icon": "🌸"
+      },
+      {
+        "rank": 6,
+        "name": "池袋西口公園 Global Ring Theatre",
+        "category": "文化・アート",
+        "description": "野外劇場を備えたおしゃれな公園。イベント多数",
+        "icon": "🎪"
+      },
+      {
+        "rank": 5,
+        "name": "トキワ荘マンガミュージアム",
+        "category": "文化・アート",
+        "description": "漫画の聖地。手塚・藤子不二雄らが暮らしたアパート復元",
+        "icon": "📚"
+      },
+      {
+        "rank": 4,
+        "name": "Hareza池袋",
+        "category": "ショッピング",
+        "description": "2020年開業の複合施設。劇場やシネマが入居",
+        "icon": "🎬"
+      },
+      {
+        "rank": 3,
+        "name": "粋酔",
+        "category": "グルメ",
+        "description": "地元で評判の日本酒と肴が楽しめる居酒屋",
+        "icon": "🍶"
+      },
+      {
+        "rank": 2,
+        "name": "切手の博物館",
+        "category": "文化・アート",
+        "description": "世界の切手約35万種を収蔵するニッチなミュージアム",
+        "icon": "💌"
+      },
+      {
+        "rank": 1,
+        "name": "池袋まで歩く贅沢な距離感",
+        "category": "ランドマーク",
+        "description": "電車に乗らなくても、徒歩15分で池袋の全てが手に入る",
+        "icon": "🚶"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=800&q=80",
+    "colorFrom": "#0d9488",
+    "colorTo": "#5eead4",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_05400/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E8%A6%81%E7%94%BA/"
+    }
+  },
+  {
+    "slug": "shimura-sakaue",
+    "name": "志村坂上",
+    "area": "板橋区",
+    "station": [
+      "志村坂上駅"
+    ],
+    "lines": [
+      "都営三田線"
+    ],
+    "catchcopy": "坂の上から眺める、板橋の素顔",
+    "description": "都営三田線で大手町・日比谷方面に一本でアクセスできる板橋区北部の住宅街。志村城跡の歴史を残しつつ、見次公園の水辺やイオンスタイルの生活利便性を備える。家賃の安さは都内屈指で、堅実な暮らしを求める人に支持される街。",
+    "vibe": [
+      "コスパ",
+      "住宅街",
+      "静か",
+      "下町",
+      "堅実"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "9.8万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 35,
+      "新宿": 30,
+      "東京": 30,
+      "池袋": 18,
+      "品川": 40
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "志村城跡",
+        "category": "ランドマーク",
+        "description": "室町時代の城跡。土塁の痕跡が残る歴史スポット",
+        "icon": "🏯"
+      },
+      {
+        "rank": 9,
+        "name": "見次公園",
+        "category": "自然",
+        "description": "ボート遊びができる池のある水辺の公園",
+        "icon": "🚣"
+      },
+      {
+        "rank": 8,
+        "name": "イオンスタイル板橋前野町",
+        "category": "ショッピング",
+        "description": "食料品から日用品まで揃う大型商業施設",
+        "icon": "🛒"
+      },
+      {
+        "rank": 7,
+        "name": "志村銀座商店街",
+        "category": "ショッピング",
+        "description": "昔ながらの個人店が並ぶ庶民的な商店街",
+        "icon": "🏪"
+      },
+      {
+        "rank": 6,
+        "name": "前野原温泉 さやの湯処",
+        "category": "温泉",
+        "description": "天然温泉と日本庭園が楽しめる都内有数の日帰り温泉",
+        "icon": "♨️"
+      },
+      {
+        "rank": 5,
+        "name": "熊野神社",
+        "category": "寺社",
+        "description": "志村の鎮守。志村城主が勧請した歴史ある社",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 4,
+        "name": "板橋区立郷土資料館",
+        "category": "文化・アート",
+        "description": "板橋の歴史と文化を学べる無料の資料館",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 3,
+        "name": "荒川戸田橋緑地",
+        "category": "自然",
+        "description": "荒川河川敷の広大な緑地。バーベキューやスポーツに",
+        "icon": "🏞️"
+      },
+      {
+        "rank": 2,
+        "name": "いたばし花火大会",
+        "category": "イベント",
+        "description": "荒川河川敷で開催される板橋の夏の風物詩",
+        "icon": "🎆"
+      },
+      {
+        "rank": 1,
+        "name": "さやの湯の露天風呂",
+        "category": "温泉",
+        "description": "都内とは思えない天然温泉。日常に温泉がある贅沢",
+        "icon": "🧖"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "colorFrom": "#92400e",
+    "colorTo": "#fbbf24",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02510/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E5%BF%97%E6%9D%91%E5%9D%82%E4%B8%8A/"
+    }
+  }
+]

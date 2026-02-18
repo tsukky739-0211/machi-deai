@@ -1,0 +1,1172 @@
+[
+  {
+    "slug": "hikifune",
+    "name": "曳舟",
+    "area": "墨田区",
+    "station": [
+      "曳舟駅"
+    ],
+    "lines": [
+      "東武スカイツリーライン",
+      "京成押上線"
+    ],
+    "catchcopy": "スカイツリーを背に、下町が息を吹き返す",
+    "description": "東京スカイツリーを間近に望む再開発エリアと、昔ながらの商店街が同居する曳舟。タワーマンションが建ち並ぶ一方で、路地裏には銭湯や惣菜屋が健在。向島百花園の四季折々の風情、隅田川沿いの散歩道。新旧が溶け合い、静かに変貌を遂げる東東京のフロンティア。",
+    "vibe": [
+      "再開発",
+      "下町",
+      "スカイツリー",
+      "商店街",
+      "穴場"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "6.8万",
+      "oneK": "8.2万",
+      "oneLDK": "12.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "カップル"
+    ],
+    "commuteMinutes": {
+      "渋谷": 30,
+      "新宿": 28,
+      "東京": 18,
+      "池袋": 25,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "向島百花園",
+        "category": "自然・公園",
+        "description": "江戸時代から続く風情ある花の名所、萩のトンネルが有名",
+        "icon": "🌸"
+      },
+      {
+        "rank": 9,
+        "name": "東京スカイツリー",
+        "category": "観光",
+        "description": "徒歩圏内にそびえる高さ634mの電波塔、展望台からの絶景",
+        "icon": "🗼"
+      },
+      {
+        "rank": 8,
+        "name": "イトーヨーカドー曳舟店",
+        "category": "ショッピング",
+        "description": "再開発で誕生した大型商業施設、日常の買い物に便利",
+        "icon": "🛒"
+      },
+      {
+        "rank": 7,
+        "name": "キラキラ橘商店街",
+        "category": "商店街",
+        "description": "昭和の面影残す活気ある下町商店街、惣菜の宝庫",
+        "icon": "🏮"
+      },
+      {
+        "rank": 6,
+        "name": "隅田川テラス",
+        "category": "自然・公園",
+        "description": "川沿いの遊歩道でジョギングや散歩を楽しめる",
+        "icon": "🌊"
+      },
+      {
+        "rank": 5,
+        "name": "鳩の街通り商店街",
+        "category": "商店街",
+        "description": "レトロな街並みにカフェやギャラリーが点在する通り",
+        "icon": "🕊️"
+      },
+      {
+        "rank": 4,
+        "name": "電気湯",
+        "category": "銭湯",
+        "description": "地元民に愛されるリノベーション銭湯、イベントも開催",
+        "icon": "♨️"
+      },
+      {
+        "rank": 3,
+        "name": "長命寺桜もち",
+        "category": "グルメ",
+        "description": "隅田川沿いの名物和菓子、享保年間創業の老舗",
+        "icon": "🍡"
+      },
+      {
+        "rank": 2,
+        "name": "墨田区立曳舟図書館",
+        "category": "公共施設",
+        "description": "再開発エリアの綺麗な図書館、学習スペースも充実",
+        "icon": "📖"
+      },
+      {
+        "rank": 1,
+        "name": "東武曳舟駅前広場",
+        "category": "ランドマーク",
+        "description": "整備された駅前、スカイツリーのビューポイント",
+        "icon": "🚉"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=800&q=80",
+    "colorFrom": "#4FC3F7",
+    "colorTo": "#0288D1",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_21780/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/hikifune_02686-st/"
+    }
+  },
+  {
+    "slug": "oshiage",
+    "name": "押上",
+    "area": "墨田区",
+    "station": [
+      "押上駅",
+      "とうきょうスカイツリー駅"
+    ],
+    "lines": [
+      "東京メトロ半蔵門線",
+      "都営浅草線",
+      "京成押上線",
+      "東武スカイツリーライン"
+    ],
+    "catchcopy": "世界一のタワーの足元に、下町の暮らし",
+    "description": "東京スカイツリーのお膝元でありながら、一歩裏に入れば昔ながらの下町風情が広がる押上。4路線が乗り入れる交通の要衝で、浅草や銀座方面へのアクセスも抜群。ソラマチでの買い物と路地裏の惣菜屋が共存する、観光と生活が溶け合う不思議な街。",
+    "vibe": [
+      "スカイツリー",
+      "下町",
+      "交通便利",
+      "観光",
+      "再開発"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "7.2万",
+      "oneK": "8.8万",
+      "oneLDK": "13.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "カップル"
+    ],
+    "commuteMinutes": {
+      "渋谷": 27,
+      "新宿": 30,
+      "東京": 18,
+      "池袋": 27,
+      "品川": 25
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "東京スカイツリー",
+        "category": "観光",
+        "description": "高さ634m、世界一の自立式電波塔。展望回廊は地上450m",
+        "icon": "🗼"
+      },
+      {
+        "rank": 9,
+        "name": "東京ソラマチ",
+        "category": "ショッピング",
+        "description": "300以上の店舗が集まるスカイツリータウンの商業施設",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 8,
+        "name": "すみだ水族館",
+        "category": "観光",
+        "description": "ソラマチ内の都市型水族館、ペンギンとクラゲが人気",
+        "icon": "🐧"
+      },
+      {
+        "rank": 7,
+        "name": "コニカミノルタプラネタリウム天空",
+        "category": "観光",
+        "description": "ソラマチ7Fの最新プラネタリウム、アロマ演出も",
+        "icon": "🌌"
+      },
+      {
+        "rank": 6,
+        "name": "おしなり商店街",
+        "category": "商店街",
+        "description": "スカイツリーの足元に広がる昔ながらの下町商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 5,
+        "name": "十間橋",
+        "category": "ビューポイント",
+        "description": "スカイツリーが水面に映る絶好の撮影スポット",
+        "icon": "📸"
+      },
+      {
+        "rank": 4,
+        "name": "業平橋",
+        "category": "ランドマーク",
+        "description": "在原業平ゆかりの地、スカイツリーを間近に望む橋",
+        "icon": "🌉"
+      },
+      {
+        "rank": 3,
+        "name": "たばこと塩の博物館",
+        "category": "文化・アート",
+        "description": "日本たばこ産業が運営するユニークな博物館",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 2,
+        "name": "押上温泉 大黒湯",
+        "category": "銭湯",
+        "description": "露天風呂からスカイツリーが見える名物銭湯",
+        "icon": "♨️"
+      },
+      {
+        "rank": 1,
+        "name": "郵政博物館",
+        "category": "文化・アート",
+        "description": "ソラマチ9Fにある世界の切手と郵便の歴史を学べる施設",
+        "icon": "📮"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+    "colorFrom": "#CE93D8",
+    "colorTo": "#7B1FA2",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_21800/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/oshiage_02688-st/"
+    }
+  },
+  {
+    "slug": "sunamachi-ginza",
+    "name": "砂町銀座",
+    "area": "江東区",
+    "station": [
+      "南砂町駅",
+      "西大島駅"
+    ],
+    "lines": [
+      "東京メトロ東西線",
+      "都営新宿線"
+    ],
+    "catchcopy": "揚げたての惣菜と、飾らない人情の横丁",
+    "description": "全長約670m、180店舗以上がひしめく東京屈指の活気ある商店街。焼き鳥、おでん、煮込み、コロッケ——歩きながら食べ歩きが楽しめる庶民の台所。最寄駅からやや歩くが、その不便さが逆に観光地化を防ぎ、地元民の日常がそのまま残る。東京の下町食文化の生きた博物館。",
+    "vibe": [
+      "商店街",
+      "食べ歩き",
+      "下町",
+      "人情",
+      "庶民的"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "6.5万",
+      "oneK": "7.8万",
+      "oneLDK": "11.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "シニア"
+    ],
+    "commuteMinutes": {
+      "渋谷": 35,
+      "新宿": 30,
+      "東京": 15,
+      "池袋": 30,
+      "品川": 28
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "砂町銀座商店街",
+        "category": "商店街",
+        "description": "全長670mに約180店舗、東京を代表する下町商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "増英蒲鉾店",
+        "category": "グルメ",
+        "description": "揚げたてのおでん種が名物、行列必至の人気店",
+        "icon": "🍢"
+      },
+      {
+        "rank": 8,
+        "name": "梅むら",
+        "category": "グルメ",
+        "description": "ふわふわの豆かん・あんみつが絶品の甘味処",
+        "icon": "🍧"
+      },
+      {
+        "rank": 7,
+        "name": "砂町銀座の焼き鳥屋台",
+        "category": "グルメ",
+        "description": "商店街名物の焼き鳥、1本80円からの食べ歩きの王道",
+        "icon": "🍗"
+      },
+      {
+        "rank": 6,
+        "name": "仙台堀川公園",
+        "category": "自然・公園",
+        "description": "全長約3.7kmの親水公園、桜並木と水辺の散歩道",
+        "icon": "🌳"
+      },
+      {
+        "rank": 5,
+        "name": "砂町文化センター",
+        "category": "公共施設",
+        "description": "地域の文化活動拠点、ホールや図書室を併設",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 4,
+        "name": "荒川砂町水辺公園",
+        "category": "自然・公園",
+        "description": "荒川沿いの広大な緑地、BBQやスポーツが楽しめる",
+        "icon": "🏞️"
+      },
+      {
+        "rank": 3,
+        "name": "丸八惣菜店",
+        "category": "グルメ",
+        "description": "昭和から続く手作り惣菜の店、コロッケが絶品",
+        "icon": "🥘"
+      },
+      {
+        "rank": 2,
+        "name": "南砂三丁目公園",
+        "category": "自然・公園",
+        "description": "遊具が充実した子ども向けの広い公園",
+        "icon": "🛝"
+      },
+      {
+        "rank": 1,
+        "name": "砂町銀座年末大売出し",
+        "category": "イベント",
+        "description": "年末恒例の大賑わい、正月用の食材を求める人で大混雑",
+        "icon": "🎍"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80",
+    "colorFrom": "#FF8A65",
+    "colorTo": "#D84315",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02680/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/minami-sunamachi_02680-st/"
+    }
+  },
+  {
+    "slug": "ayase",
+    "name": "綾瀬",
+    "area": "足立区",
+    "station": [
+      "綾瀬駅"
+    ],
+    "lines": [
+      "東京メトロ千代田線",
+      "JR常磐線（各駅停車）"
+    ],
+    "catchcopy": "千代田線始発、都心へ座って通える下町",
+    "description": "千代田線の始発駅という隠れた強みを持つ綾瀬。朝のラッシュでも座って大手町や表参道へ向かえるのは、この街に暮らす人だけの特権。東綾瀬公園の緑、しょうぶ沼公園の花菖蒲、昔ながらの定食屋。足立区の中でも穏やかで、家賃の安さと交通利便性を両立する実力派。",
+    "vibe": [
+      "始発駅",
+      "穏やか",
+      "コスパ",
+      "公園",
+      "下町"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 38,
+      "新宿": 35,
+      "東京": 25,
+      "池袋": 32,
+      "品川": 38
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "東綾瀬公園",
+        "category": "自然・公園",
+        "description": "テニスコートや温水プールを備えた総合公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 9,
+        "name": "しょうぶ沼公園",
+        "category": "自然・公園",
+        "description": "6月に約140種8100株の花菖蒲が咲き誇る名所",
+        "icon": "🌺"
+      },
+      {
+        "rank": 8,
+        "name": "東京武道館",
+        "category": "スポーツ",
+        "description": "綾瀬にある本格武道施設、各種大会も開催",
+        "icon": "🥋"
+      },
+      {
+        "rank": 7,
+        "name": "アリオ西新井",
+        "category": "ショッピング",
+        "description": "バスでアクセスできる大型ショッピングセンター",
+        "icon": "🛒"
+      },
+      {
+        "rank": 6,
+        "name": "綾瀬駅前商店街",
+        "category": "商店街",
+        "description": "飲食店や日用品店が並ぶ駅前の生活密着型商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 5,
+        "name": "足立区生物園",
+        "category": "観光",
+        "description": "元渕江公園内の生物園、蝶が舞う大温室が人気",
+        "icon": "🦋"
+      },
+      {
+        "rank": 4,
+        "name": "中川沿い遊歩道",
+        "category": "自然・公園",
+        "description": "桜の季節が美しい中川沿いの散歩コース",
+        "icon": "🚶"
+      },
+      {
+        "rank": 3,
+        "name": "綾瀬プルミエ",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設、スーパーやドラッグストアが入居",
+        "icon": "🏬"
+      },
+      {
+        "rank": 2,
+        "name": "五兵衛新道",
+        "category": "商店街",
+        "description": "昔ながらの個人商店が軒を連ねるレトロな通り",
+        "icon": "🚪"
+      },
+      {
+        "rank": 1,
+        "name": "綾瀬稲荷神社",
+        "category": "神社仏閣",
+        "description": "地元の氏神様、初詣や七五三で賑わう地域の守り神",
+        "icon": "⛩️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80",
+    "colorFrom": "#81C784",
+    "colorTo": "#388E3C",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02530/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/ayase_02530-st/"
+    }
+  },
+  {
+    "slug": "takenotsuka",
+    "name": "竹ノ塚",
+    "area": "足立区",
+    "station": [
+      "竹ノ塚駅"
+    ],
+    "lines": [
+      "東武スカイツリーライン"
+    ],
+    "catchcopy": "家賃と人情の、東京最安圏",
+    "description": "23区内でもトップクラスの家賃の安さを誇る竹ノ塚。駅前の高架化事業で街が大きく変わりつつある最中。多国籍な飲食店、激安スーパー、下町の銭湯。飾り気はないが生活コストを抑えたい人にとっては最強の選択肢。見沼代親水公園への散歩道も心地よい。",
+    "vibe": [
+      "激安",
+      "多国籍",
+      "下町",
+      "再開発中",
+      "コスパ最強"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.2万",
+      "oneK": "6.3万",
+      "oneLDK": "8.8万"
+    },
+    "bestFor": [
+      "コスパ重視",
+      "20代一人暮らし"
+    ],
+    "commuteMinutes": {
+      "渋谷": 45,
+      "新宿": 40,
+      "東京": 30,
+      "池袋": 35,
+      "品川": 45
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "竹ノ塚駅前高架化事業",
+        "category": "ランドマーク",
+        "description": "2024年完了の高架化で駅前が大きく変貌、踏切解消",
+        "icon": "🚧"
+      },
+      {
+        "rank": 9,
+        "name": "花畑記念庭園・桜花亭",
+        "category": "自然・公園",
+        "description": "日本庭園と茶室を備えた区立の美しい庭園",
+        "icon": "🍵"
+      },
+      {
+        "rank": 8,
+        "name": "保木間公園",
+        "category": "自然・公園",
+        "description": "大型遊具と広場のある子ども人気の公園",
+        "icon": "🛝"
+      },
+      {
+        "rank": 7,
+        "name": "竹ノ塚商店街",
+        "category": "商店街",
+        "description": "駅東西に広がる昔ながらの商店街、飲み屋も充実",
+        "icon": "🏮"
+      },
+      {
+        "rank": 6,
+        "name": "ピーコックストア竹の塚店",
+        "category": "ショッピング",
+        "description": "駅前の大型スーパー、日常の買い物に重宝",
+        "icon": "🛒"
+      },
+      {
+        "rank": 5,
+        "name": "多国籍グルメ通り",
+        "category": "グルメ",
+        "description": "フィリピン・ベトナム・中華の本格料理店が集中",
+        "icon": "🍜"
+      },
+      {
+        "rank": 4,
+        "name": "見沼代親水公園",
+        "category": "自然・公園",
+        "description": "全長約1.7kmの親水公園、水遊びと散策が楽しめる",
+        "icon": "💧"
+      },
+      {
+        "rank": 3,
+        "name": "足立区立竹の塚図書館",
+        "category": "公共施設",
+        "description": "蔵書豊富な地域図書館、学習室も完備",
+        "icon": "📚"
+      },
+      {
+        "rank": 2,
+        "name": "炎天寺",
+        "category": "神社仏閣",
+        "description": "小林一茶ゆかりの寺、やせがえるの句碑あり",
+        "icon": "🐸"
+      },
+      {
+        "rank": 1,
+        "name": "業務スーパー竹の塚店",
+        "category": "ショッピング",
+        "description": "格安食材の宝庫、一人暮らしの食費節約に必須",
+        "icon": "🥫"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80",
+    "colorFrom": "#A5D6A7",
+    "colorTo": "#2E7D32",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_21750/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/takenotsuka_02648-st/"
+    }
+  },
+  {
+    "slug": "kanamachi",
+    "name": "金町",
+    "area": "葛飾区",
+    "station": [
+      "金町駅",
+      "京成金町駅"
+    ],
+    "lines": [
+      "JR常磐線（各駅停車）",
+      "京成金町線"
+    ],
+    "catchcopy": "水元公園の水辺と、学びの街の新しい風",
+    "description": "東京理科大学のキャンパス移転で学生の街へと変貌しつつある金町。都内最大級の水郷公園・水元公園を擁し、メタセコイアの並木道や釣り堀、野鳥観察と自然が身近。駅前の再開発でタワーマンションやヴィナシス金町が誕生し、利便性も急上昇中の注目エリア。",
+    "vibe": [
+      "自然豊か",
+      "学生街",
+      "再開発",
+      "水辺",
+      "穴場"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "5.6万",
+      "oneK": "6.8万",
+      "oneLDK": "10.2万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "ファミリー"
+    ],
+    "commuteMinutes": {
+      "渋谷": 42,
+      "新宿": 38,
+      "東京": 28,
+      "池袋": 35,
+      "品川": 40
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "水元公園",
+        "category": "自然・公園",
+        "description": "都内最大の水郷公園、メタセコイアの森と広大な水辺",
+        "icon": "🌿"
+      },
+      {
+        "rank": 9,
+        "name": "東京理科大学 葛飾キャンパス",
+        "category": "教育",
+        "description": "2013年開設の近代的キャンパス、学食は一般利用も可",
+        "icon": "🎓"
+      },
+      {
+        "rank": 8,
+        "name": "ヴィナシス金町",
+        "category": "ショッピング",
+        "description": "駅前再開発で誕生した複合商業施設、図書館も入居",
+        "icon": "🏬"
+      },
+      {
+        "rank": 7,
+        "name": "水元さくら堤",
+        "category": "自然・公園",
+        "description": "約3.5kmの桜並木が続く都内屈指の花見スポット",
+        "icon": "🌸"
+      },
+      {
+        "rank": 6,
+        "name": "水元公園バードサンクチュアリ",
+        "category": "自然・公園",
+        "description": "カワセミなど野鳥観察ができる都内貴重な自然保護区",
+        "icon": "🐦"
+      },
+      {
+        "rank": 5,
+        "name": "金町湯",
+        "category": "銭湯",
+        "description": "昔ながらの雰囲気を残す地元の銭湯、薬湯が人気",
+        "icon": "♨️"
+      },
+      {
+        "rank": 4,
+        "name": "金町駅前商店街",
+        "category": "商店街",
+        "description": "昔ながらの個人商店と新しい飲食店が共存する通り",
+        "icon": "🏮"
+      },
+      {
+        "rank": 3,
+        "name": "柴又帝釈天",
+        "category": "神社仏閣",
+        "description": "寅さんの舞台、京成金町線で一駅の下町名所",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 2,
+        "name": "金町浄水場",
+        "category": "ランドマーク",
+        "description": "東京の水道水の約3割を担う巨大浄水場、春に一般公開",
+        "icon": "🚰"
+      },
+      {
+        "rank": 1,
+        "name": "水元公園の花菖蒲園",
+        "category": "自然・公園",
+        "description": "6月に約100種20万株の花菖蒲が咲き誇る圧巻の景色",
+        "icon": "💜"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "colorFrom": "#4DD0E1",
+    "colorTo": "#00838F",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_01150/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/kanamachi_01150-st/"
+    }
+  },
+  {
+    "slug": "koiwa",
+    "name": "小岩",
+    "area": "江戸川区",
+    "station": [
+      "小岩駅"
+    ],
+    "lines": [
+      "JR総武線"
+    ],
+    "catchcopy": "昭和の横丁と令和の再開発が交差する街",
+    "description": "南口の昭和レトロな飲み屋街と、北口で進む大規模再開発。二つの顔を持つ小岩は今、東東京で最も変化のダイナミズムを感じる街。総武線で秋葉原まで約15分、都心アクセスも悪くない。地元密着の商店街、インド料理やベトナム料理の本格店、朝まで営業の居酒屋。飾らない人間味が残る。",
+    "vibe": [
+      "飲み屋街",
+      "再開発",
+      "多国籍",
+      "レトロ",
+      "庶民的"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "飲み好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 35,
+      "新宿": 28,
+      "東京": 18,
+      "池袋": 30,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "小岩駅北口再開発エリア",
+        "category": "ランドマーク",
+        "description": "タワーマンションと商業施設が誕生する大規模再開発",
+        "icon": "🏗️"
+      },
+      {
+        "rank": 9,
+        "name": "小岩フラワーロード",
+        "category": "商店街",
+        "description": "駅南口から続く全長約500mの賑やかな商店街",
+        "icon": "🌷"
+      },
+      {
+        "rank": 8,
+        "name": "地蔵通り商店街",
+        "category": "商店街",
+        "description": "昭和の風情が色濃く残る昔ながらの買い物通り",
+        "icon": "🏮"
+      },
+      {
+        "rank": 7,
+        "name": "小岩の飲み屋横丁",
+        "category": "グルメ",
+        "description": "駅南口に広がるディープな居酒屋密集エリア",
+        "icon": "🍶"
+      },
+      {
+        "rank": 6,
+        "name": "江戸川河川敷",
+        "category": "自然・公園",
+        "description": "広大な河川敷でBBQやスポーツ、夏は花火大会も",
+        "icon": "🎆"
+      },
+      {
+        "rank": 5,
+        "name": "小岩菖蒲園",
+        "category": "自然・公園",
+        "description": "江戸川河川敷に約5万本の花菖蒲が咲く無料の名所",
+        "icon": "🌺"
+      },
+      {
+        "rank": 4,
+        "name": "インド料理店街",
+        "category": "グルメ",
+        "description": "本格インドカレーの名店が複数集まるエリア",
+        "icon": "🍛"
+      },
+      {
+        "rank": 3,
+        "name": "善養寺",
+        "category": "神社仏閣",
+        "description": "国の天然記念物の影向の松がある古刹",
+        "icon": "🌲"
+      },
+      {
+        "rank": 2,
+        "name": "小岩井梨園",
+        "category": "体験",
+        "description": "都内で梨狩りが楽しめる珍しい観光農園",
+        "icon": "🍐"
+      },
+      {
+        "rank": 1,
+        "name": "興之宮神社",
+        "category": "神社仏閣",
+        "description": "小岩の総鎮守、秋の例大祭は街全体が盛り上がる",
+        "icon": "⛩️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
+    "colorFrom": "#FFB74D",
+    "colorTo": "#E65100",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_01070/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/koiwa_01070-st/"
+    }
+  },
+  {
+    "slug": "mizue",
+    "name": "瑞江",
+    "area": "江戸川区",
+    "station": [
+      "瑞江駅"
+    ],
+    "lines": [
+      "都営新宿線"
+    ],
+    "catchcopy": "新宿直通、静寂と緑に包まれた穴場",
+    "description": "都営新宿線で新宿まで乗り換えなし約35分。その割に知名度が低く、家賃の安さは23区内でもトップクラス。駅周辺は落ち着いた住宅街で、篠崎公園や新中川沿いの緑が豊富。子育て世帯にも人気が高く、江戸川区の手厚い子育て支援も追い風。静かに暮らしたい人の隠れた選択肢。",
+    "vibe": [
+      "静か",
+      "穴場",
+      "子育て",
+      "コスパ",
+      "住宅街"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.4万",
+      "oneK": "6.5万",
+      "oneLDK": "9.5万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 42,
+      "新宿": 35,
+      "東京": 28,
+      "池袋": 38,
+      "品川": 40
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "篠崎公園",
+        "category": "自然・公園",
+        "description": "広大な芝生広場とBBQ場を備えた江戸川区最大の公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 9,
+        "name": "新中川沿い遊歩道",
+        "category": "自然・公園",
+        "description": "桜並木が美しい川沿いのジョギング・散歩コース",
+        "icon": "🏃"
+      },
+      {
+        "rank": 8,
+        "name": "瑞江駅前商店街",
+        "category": "商店街",
+        "description": "日常使いの飲食店や商店が集まるコンパクトな商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 7,
+        "name": "江戸川区総合文化センター",
+        "category": "公共施設",
+        "description": "大ホールや会議室を備えた区の文化拠点",
+        "icon": "🎵"
+      },
+      {
+        "rank": 6,
+        "name": "ライフ瑞江店",
+        "category": "ショッピング",
+        "description": "駅近の大型スーパー、深夜まで営業で便利",
+        "icon": "🛒"
+      },
+      {
+        "rank": 5,
+        "name": "江戸川区立瑞江図書館",
+        "category": "公共施設",
+        "description": "児童書が充実した地域図書館、読み聞かせ会も開催",
+        "icon": "📖"
+      },
+      {
+        "rank": 4,
+        "name": "一之江境川親水公園",
+        "category": "自然・公園",
+        "description": "せせらぎと緑の親水公園、夏は子どもの水遊び場",
+        "icon": "💧"
+      },
+      {
+        "rank": 3,
+        "name": "春江の湯",
+        "category": "銭湯",
+        "description": "天然温泉の露天風呂がある地元の人気銭湯",
+        "icon": "♨️"
+      },
+      {
+        "rank": 2,
+        "name": "江戸川花火大会（篠崎会場）",
+        "category": "イベント",
+        "description": "毎夏14000発が打ち上がる区内最大の花火大会",
+        "icon": "🎆"
+      },
+      {
+        "rank": 1,
+        "name": "瑞江葬儀所",
+        "category": "ランドマーク",
+        "description": "都営の火葬場、地名の由来にもなった地域の歴史的施設",
+        "icon": "🏛️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+    "colorFrom": "#AED581",
+    "colorTo": "#558B2F",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_05640/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/mizue_05640-st/"
+    }
+  },
+  {
+    "slug": "kasai",
+    "name": "葛西",
+    "area": "江戸川区",
+    "station": [
+      "葛西駅"
+    ],
+    "lines": [
+      "東京メトロ東西線"
+    ],
+    "catchcopy": "インドと下町が混ざり合う、多文化の水辺",
+    "description": "リトルインディアの異名を持つ多文化共生の街。日本最大規模のインド人コミュニティがあり、本場のカレーやスパイスショップが点在。東西線で大手町まで約20分の好アクセス。葛西臨海公園の大観覧車、旧江戸川沿いの桜並木、地下鉄博物館。海と川に挟まれた、国際色豊かな東京の別世界。",
+    "vibe": [
+      "多文化",
+      "インド",
+      "水辺",
+      "ファミリー",
+      "交通便利"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "6.0万",
+      "oneK": "7.2万",
+      "oneLDK": "10.8万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "20代一人暮らし"
+    ],
+    "commuteMinutes": {
+      "渋谷": 35,
+      "新宿": 32,
+      "東京": 18,
+      "池袋": 33,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "葛西臨海公園",
+        "category": "自然・公園",
+        "description": "大観覧車・水族園・海辺の広大な都立公園",
+        "icon": "🎡"
+      },
+      {
+        "rank": 9,
+        "name": "葛西臨海水族園",
+        "category": "観光",
+        "description": "マグロの大水槽とペンギンで有名な都立水族園",
+        "icon": "🐟"
+      },
+      {
+        "rank": 8,
+        "name": "地下鉄博物館",
+        "category": "文化・アート",
+        "description": "葛西駅高架下にある東京メトロ運営の鉄道博物館",
+        "icon": "🚇"
+      },
+      {
+        "rank": 7,
+        "name": "インド食材店・レストラン群",
+        "category": "グルメ",
+        "description": "本場のスパイスと料理が楽しめるリトルインディア",
+        "icon": "🍛"
+      },
+      {
+        "rank": 6,
+        "name": "総合レクリエーション公園",
+        "category": "自然・公園",
+        "description": "東西約3kmに渡る公園群、バラ園やアスレチックも",
+        "icon": "🌹"
+      },
+      {
+        "rank": 5,
+        "name": "旧江戸川沿い桜並木",
+        "category": "自然・公園",
+        "description": "春は桜のトンネルが続く地元屈指の花見コース",
+        "icon": "🌸"
+      },
+      {
+        "rank": 4,
+        "name": "葛西駅前商店街",
+        "category": "商店街",
+        "description": "日常使いの商店と多国籍レストランが混在する通り",
+        "icon": "🏮"
+      },
+      {
+        "rank": 3,
+        "name": "イオン葛西店",
+        "category": "ショッピング",
+        "description": "映画館も併設の大型ショッピングセンター",
+        "icon": "🛒"
+      },
+      {
+        "rank": 2,
+        "name": "鹿骨花まつり",
+        "category": "イベント",
+        "description": "江戸川区の花の名所、春の花まつりは地域の風物詩",
+        "icon": "🌼"
+      },
+      {
+        "rank": 1,
+        "name": "葛西海浜公園",
+        "category": "自然・公園",
+        "description": "ラムサール条約登録湿地、潮干狩りと野鳥観察の名所",
+        "icon": "🦅"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80",
+    "colorFrom": "#4DB6AC",
+    "colorTo": "#00695C",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02670/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/kasai_02670-st/"
+    }
+  },
+  {
+    "slug": "oyama",
+    "name": "大山",
+    "area": "板橋区",
+    "station": [
+      "大山駅"
+    ],
+    "lines": [
+      "東武東上線"
+    ],
+    "catchcopy": "アーケードを抜ける風に、暮らしの温度",
+    "description": "全長約560m、全蓋式アーケードのハッピーロード大山商店街を中心に、昔ながらの活気が今も健在。八百屋、肉屋、魚屋、惣菜屋——商店街で一通りの食材が揃う暮らしやすさ。池袋まで東上線で約6分という近さながら、家賃は格段に安い。再開発計画も進行中で、これからの変化にも注目の街。",
+    "vibe": [
+      "商店街",
+      "アーケード",
+      "池袋近い",
+      "庶民的",
+      "活気"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "6.2万",
+      "oneK": "7.5万",
+      "oneLDK": "11.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "自炊派"
+    ],
+    "commuteMinutes": {
+      "渋谷": 22,
+      "新宿": 18,
+      "東京": 25,
+      "池袋": 6,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "ハッピーロード大山商店街",
+        "category": "商店街",
+        "description": "全長560mの全蓋式アーケード、約200店舗が軒を連ねる",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "遊座大山商店街",
+        "category": "商店街",
+        "description": "ハッピーロードと交差するもう一つの活気ある商店街",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 8,
+        "name": "板橋区立文化会館",
+        "category": "公共施設",
+        "description": "大ホール1204席を備えた区の文化拠点",
+        "icon": "🎵"
+      },
+      {
+        "rank": 7,
+        "name": "大山金井町公園",
+        "category": "自然・公園",
+        "description": "桜の名所としても知られる住宅街の中の憩いの公園",
+        "icon": "🌸"
+      },
+      {
+        "rank": 6,
+        "name": "デンマークイン大山",
+        "category": "銭湯",
+        "description": "北欧テイストの外観が特徴的なユニークな銭湯",
+        "icon": "♨️"
+      },
+      {
+        "rank": 5,
+        "name": "板橋区立グリーンホール",
+        "category": "公共施設",
+        "description": "会議室や多目的ホールを備えた区民の活動拠点",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 4,
+        "name": "大山の惣菜屋・八百屋群",
+        "category": "グルメ",
+        "description": "商店街に並ぶ対面販売の店々、夕方が最も活気づく",
+        "icon": "🥬"
+      },
+      {
+        "rank": 3,
+        "name": "イオンスタイル板橋前野町",
+        "category": "ショッピング",
+        "description": "食品から日用品まで揃う大型スーパー",
+        "icon": "🛒"
+      },
+      {
+        "rank": 2,
+        "name": "板橋区民まつり",
+        "category": "イベント",
+        "description": "毎年10月開催、阿波おどりや模擬店で賑わう秋祭り",
+        "icon": "🎊"
+      },
+      {
+        "rank": 1,
+        "name": "子易神社",
+        "category": "神社仏閣",
+        "description": "安産・子育ての御利益で知られる大山の鎮守社",
+        "icon": "⛩️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1554797589-7241bb691973?w=800&q=80",
+    "colorFrom": "#FF8A65",
+    "colorTo": "#BF360C",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_21650/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/oyama_02601-st/"
+    }
+  }
+]

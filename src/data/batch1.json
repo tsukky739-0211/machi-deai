@@ -1,0 +1,1178 @@
+[
+  {
+    "slug": "yutenji",
+    "name": "祐天寺",
+    "area": "目黒区",
+    "station": [
+      "祐天寺駅"
+    ],
+    "lines": [
+      "東急東横線"
+    ],
+    "catchcopy": "静かに暮らす、東横線の隠れ家",
+    "description": "中目黒と学芸大学に挟まれた東横線の穴場駅。派手さはないが、路地裏に佇むビストロや焙煎所、昔ながらの銭湯が点在する生活感のある街並み。駒沢通り沿いにはベーカリーやワインバーが増え、静かに感度の高い層が集まりつつある住宅街。",
+    "vibe": [
+      "穴場",
+      "住宅街",
+      "ビストロ",
+      "静か",
+      "大人"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "7.8万",
+      "oneK": "9.5万",
+      "oneLDK": "14.8万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "カップル"
+    ],
+    "commuteMinutes": {
+      "渋谷": 7,
+      "新宿": 18,
+      "東京": 28,
+      "池袋": 26,
+      "品川": 22
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "祐天寺（寺院）",
+        "category": "文化・アート",
+        "description": "街の名の由来となった浄土宗の古刹",
+        "icon": "🛕"
+      },
+      {
+        "rank": 9,
+        "name": "BRICK LANE",
+        "category": "カフェ",
+        "description": "自家焙煎コーヒーと焼き菓子が人気のカフェ",
+        "icon": "☕"
+      },
+      {
+        "rank": 8,
+        "name": "ナカメアルカス",
+        "category": "グルメ",
+        "description": "隣駅・中目黒高架下の飲食店街も徒歩圏",
+        "icon": "🍷"
+      },
+      {
+        "rank": 7,
+        "name": "駒沢通り沿いベーカリー群",
+        "category": "グルメ",
+        "description": "パン屋激戦区で焼きたてのパンをハシゴ",
+        "icon": "🥐"
+      },
+      {
+        "rank": 6,
+        "name": "文化浴泉",
+        "category": "ランドマーク",
+        "description": "レトロなタイル絵が美しい昭和の銭湯",
+        "icon": "♨️"
+      },
+      {
+        "rank": 5,
+        "name": "祐天寺商店街",
+        "category": "ショッピング",
+        "description": "個人経営の惣菜屋や花屋が並ぶ生活密着型商店街",
+        "icon": "🏘️"
+      },
+      {
+        "rank": 4,
+        "name": "駒沢オリンピック公園",
+        "category": "公園・自然",
+        "description": "ランニングやピクニックに最適な広大な公園が自転車圏内",
+        "icon": "🌳"
+      },
+      {
+        "rank": 3,
+        "name": "ワインスタンド",
+        "category": "グルメ",
+        "description": "路地裏に増えつつある立ち飲みナチュラルワインの店",
+        "icon": "🍾"
+      },
+      {
+        "rank": 2,
+        "name": "目黒川沿い散歩",
+        "category": "公園・自然",
+        "description": "春の桜並木は圧巻、普段も散歩に最適",
+        "icon": "🌸"
+      },
+      {
+        "rank": 1,
+        "name": "祐天寺の暮らしやすさ",
+        "category": "ランドマーク",
+        "description": "都心至近なのに落ち着いた空気感が最大の魅力",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80",
+    "colorFrom": "#6366f1",
+    "colorTo": "#818cf8",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_24720/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E7%A5%90%E5%A4%A9%E5%AF%BA/"
+    }
+  },
+  {
+    "slug": "sendagi",
+    "name": "千駄木",
+    "area": "文京区",
+    "station": [
+      "千駄木駅"
+    ],
+    "lines": [
+      "東京メトロ千代田線"
+    ],
+    "catchcopy": "文学と猫と坂道の谷根千",
+    "description": "谷中・根津・千駄木——通称「谷根千」の一角を成す文学と歴史の薫る街。森鷗外や夏目漱石が暮らした面影が残る坂道、よみせ通りの下町商店街、谷中銀座への抜け道。都心にありながら時間がゆっくり流れるような、散歩が似合う街。",
+    "vibe": [
+      "下町",
+      "文学",
+      "散歩",
+      "猫",
+      "レトロ"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "7.5万",
+      "oneK": "9.0万",
+      "oneLDK": "13.8万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "カップル",
+      "文化系"
+    ],
+    "commuteMinutes": {
+      "渋谷": 25,
+      "新宿": 22,
+      "東京": 15,
+      "池袋": 15,
+      "品川": 28
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "谷中銀座商店街",
+        "category": "ショッピング",
+        "description": "食べ歩きが楽しい昭和レトロな商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "夕やけだんだん",
+        "category": "ランドマーク",
+        "description": "谷中銀座へ下る階段から見る夕焼けは絶景",
+        "icon": "🌅"
+      },
+      {
+        "rank": 8,
+        "name": "根津神社",
+        "category": "文化・アート",
+        "description": "つつじまつりで有名な都内屈指の古社",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 7,
+        "name": "森鷗外記念館",
+        "category": "文化・アート",
+        "description": "鷗外が晩年を過ごした「観潮楼」跡地の記念館",
+        "icon": "📖"
+      },
+      {
+        "rank": 6,
+        "name": "よみせ通り",
+        "category": "ショッピング",
+        "description": "地元民が通う惣菜屋・八百屋が並ぶ生活商店街",
+        "icon": "🛒"
+      },
+      {
+        "rank": 5,
+        "name": "HAGISO",
+        "category": "カフェ",
+        "description": "築60年の木造アパートを改装した複合文化施設",
+        "icon": "🏚️"
+      },
+      {
+        "rank": 4,
+        "name": "谷中霊園",
+        "category": "公園・自然",
+        "description": "桜の名所でもある緑豊かな都立霊園",
+        "icon": "🌸"
+      },
+      {
+        "rank": 3,
+        "name": "千駄木の猫たち",
+        "category": "ランドマーク",
+        "description": "路地裏で出会う地域猫が谷根千の風物詩",
+        "icon": "🐈"
+      },
+      {
+        "rank": 2,
+        "name": "乱歩カフェ・古書店巡り",
+        "category": "カフェ",
+        "description": "文学者ゆかりの地にふさわしい個性派書店が点在",
+        "icon": "📚"
+      },
+      {
+        "rank": 1,
+        "name": "谷根千の街歩き",
+        "category": "ランドマーク",
+        "description": "坂道と路地を気ままに歩くこと自体が最高の体験",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "colorFrom": "#b45309",
+    "colorTo": "#d97706",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_05420/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E5%8D%83%E9%A7%84%E6%9C%A8/"
+    }
+  },
+  {
+    "slug": "ogikubo",
+    "name": "荻窪",
+    "area": "杉並区",
+    "station": [
+      "荻窪駅"
+    ],
+    "lines": [
+      "JR中央線",
+      "東京メトロ丸ノ内線"
+    ],
+    "catchcopy": "ラーメンと音楽が香る中央線の要衝",
+    "description": "JR中央線と丸ノ内線の2路線が使える交通の要衝。「荻窪ラーメン」発祥の地として全国に名を馳せ、駅周辺にはルミネやタウンセブンが揃う。南口には閑静な住宅街と大田黒公園の緑が広がり、クラシック音楽の文化も根付く知的な空気感。",
+    "vibe": [
+      "ラーメン",
+      "中央線",
+      "音楽",
+      "住宅街",
+      "利便性"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "6.8万",
+      "oneK": "8.2万",
+      "oneLDK": "12.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "カップル",
+      "社会人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 22,
+      "新宿": 12,
+      "東京": 25,
+      "池袋": 20,
+      "品川": 30
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "春木屋",
+        "category": "グルメ",
+        "description": "1949年創業・荻窪ラーメンの代名詞的老舗",
+        "icon": "🍜"
+      },
+      {
+        "rank": 9,
+        "name": "大田黒公園",
+        "category": "公園・自然",
+        "description": "音楽評論家の邸宅跡地に造られた回遊式庭園",
+        "icon": "🍁"
+      },
+      {
+        "rank": 8,
+        "name": "ルミネ荻窪",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設で日常の買い物に便利",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 7,
+        "name": "荻窪タウンセブン",
+        "category": "ショッピング",
+        "description": "地元密着型の商業ビルで食品フロアが充実",
+        "icon": "🏬"
+      },
+      {
+        "rank": 6,
+        "name": "杉並公会堂",
+        "category": "文化・アート",
+        "description": "クラシック音楽の聖地として音響に定評あるホール",
+        "icon": "🎵"
+      },
+      {
+        "rank": 5,
+        "name": "教会通り商店街",
+        "category": "ショッピング",
+        "description": "個人店が並ぶ味わい深いアーケード商店街",
+        "icon": "🏘️"
+      },
+      {
+        "rank": 4,
+        "name": "丸長",
+        "category": "グルメ",
+        "description": "つけ麺の元祖とも言われる荻窪の名店",
+        "icon": "🍥"
+      },
+      {
+        "rank": 3,
+        "name": "善福寺公園",
+        "category": "公園・自然",
+        "description": "ボート池や野鳥観察が楽しめる武蔵野の水辺",
+        "icon": "🦆"
+      },
+      {
+        "rank": 2,
+        "name": "荻窪ラーメン食べ歩き",
+        "category": "グルメ",
+        "description": "春木屋・丸長・丸信など名店を巡るラーメン散歩",
+        "icon": "🍜"
+      },
+      {
+        "rank": 1,
+        "name": "中央線×丸ノ内線の利便性",
+        "category": "ランドマーク",
+        "description": "始発の丸ノ内線で座って通勤できる最強の生活拠点",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=800&q=80",
+    "colorFrom": "#dc2626",
+    "colorTo": "#f87171",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02620/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E8%8D%BB%E7%AA%AA/"
+    }
+  },
+  {
+    "slug": "omori",
+    "name": "大森",
+    "area": "大田区",
+    "station": [
+      "大森駅"
+    ],
+    "lines": [
+      "JR京浜東北線"
+    ],
+    "catchcopy": "品川の隣、海と山の間の実力派",
+    "description": "品川まで2駅、東京駅まで直通20分という抜群のアクセスを誇るJR京浜東北線の駅。駅東側は大森貝塚で知られる歴史エリア、西側の山王は高級住宅街。駅ビルやアトレに加え、商店街の活気もあり、コスパと利便性を兼ね備えた実力派の街。",
+    "vibe": [
+      "コスパ",
+      "交通便利",
+      "商店街",
+      "歴史",
+      "下町"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "7.0万",
+      "oneK": "8.5万",
+      "oneLDK": "12.0万"
+    },
+    "bestFor": [
+      "社会人",
+      "20代一人暮らし",
+      "カップル"
+    ],
+    "commuteMinutes": {
+      "渋谷": 24,
+      "新宿": 28,
+      "東京": 20,
+      "池袋": 32,
+      "品川": 6
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "大森貝塚遺跡庭園",
+        "category": "文化・アート",
+        "description": "モース博士が発見した日本考古学発祥の地",
+        "icon": "🐚"
+      },
+      {
+        "rank": 9,
+        "name": "アトレ大森",
+        "category": "ショッピング",
+        "description": "駅直結で食品・雑貨・カフェが揃う便利な商業施設",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 8,
+        "name": "山王小路飲食店街",
+        "category": "グルメ",
+        "description": "昭和の雰囲気漂う路地裏の飲み屋横丁",
+        "icon": "🏮"
+      },
+      {
+        "rank": 7,
+        "name": "大森ベルポート",
+        "category": "ランドマーク",
+        "description": "オフィス・商業・文化施設が融合した大規模複合施設",
+        "icon": "🏢"
+      },
+      {
+        "rank": 6,
+        "name": "しながわ水族館",
+        "category": "文化・アート",
+        "description": "大森駅からバスですぐのファミリー向け水族館",
+        "icon": "🐬"
+      },
+      {
+        "rank": 5,
+        "name": "山王花清水公園",
+        "category": "公園・自然",
+        "description": "高台にある緑豊かな公園で散策に最適",
+        "icon": "🌿"
+      },
+      {
+        "rank": 4,
+        "name": "大森銀座商店街（ミルパ）",
+        "category": "ショッピング",
+        "description": "地元民で賑わうアーケード商店街",
+        "icon": "🛒"
+      },
+      {
+        "rank": 3,
+        "name": "平和の森公園",
+        "category": "公園・自然",
+        "description": "フィールドアスレチックもある広大な区立公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 2,
+        "name": "海苔のふるさと館",
+        "category": "文化・アート",
+        "description": "大森が海苔養殖発祥の地であることを伝える資料館",
+        "icon": "🌊"
+      },
+      {
+        "rank": 1,
+        "name": "品川2駅の都心直結力",
+        "category": "ランドマーク",
+        "description": "通勤利便性とコスパの両立が大森最大の魅力",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
+    "colorFrom": "#0369a1",
+    "colorTo": "#38bdf8",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02070/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E5%A4%A7%E6%A3%AE/"
+    }
+  },
+  {
+    "slug": "shakujii-koen",
+    "name": "石神井公園",
+    "area": "練馬区",
+    "station": [
+      "石神井公園駅"
+    ],
+    "lines": [
+      "西武池袋線"
+    ],
+    "catchcopy": "水辺と森に抱かれる練馬の宝石",
+    "description": "三宝寺池と石神井池という二つの池を擁する広大な石神井公園を中心に、武蔵野の自然が色濃く残る街。池袋まで急行で15分の好アクセスながら、駅を一歩出れば水鳥が泳ぐ静かな水辺。駅前にはエミオやピアレスが揃い、日常の買い物にも困らない。",
+    "vibe": [
+      "自然",
+      "公園",
+      "ファミリー",
+      "静か",
+      "水辺"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.2万",
+      "oneLDK": "10.5万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "カップル",
+      "自然好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 30,
+      "新宿": 25,
+      "東京": 35,
+      "池袋": 15,
+      "品川": 38
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "石神井公園（三宝寺池）",
+        "category": "公園・自然",
+        "description": "国の天然記念物・沼沢植物群落が残る神秘的な池",
+        "icon": "🌿"
+      },
+      {
+        "rank": 9,
+        "name": "石神井公園（石神井池）",
+        "category": "公園・自然",
+        "description": "ボート遊びやジョギングが楽しめる開放的な池",
+        "icon": "🚣"
+      },
+      {
+        "rank": 8,
+        "name": "石神井公園ふるさと文化館",
+        "category": "文化・アート",
+        "description": "練馬の歴史と文化を体験できる無料の博物館",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 7,
+        "name": "エミオ石神井公園",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設でカフェや書店が充実",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 6,
+        "name": "石神井氷川神社",
+        "category": "文化・アート",
+        "description": "室町時代創建の歴史ある鎮守の森",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 5,
+        "name": "石神井公園商店街パークロード",
+        "category": "ショッピング",
+        "description": "駅前から公園へ続く活気ある商店街",
+        "icon": "🏘️"
+      },
+      {
+        "rank": 4,
+        "name": "三宝寺池の野鳥観察",
+        "category": "公園・自然",
+        "description": "カワセミやゴイサギなど多彩な野鳥が棲む楽園",
+        "icon": "🐦"
+      },
+      {
+        "rank": 3,
+        "name": "練馬区立石神井松の風文化公園",
+        "category": "公園・自然",
+        "description": "芝生広場やテニスコートがある地域の憩いの場",
+        "icon": "🌳"
+      },
+      {
+        "rank": 2,
+        "name": "道場寺",
+        "category": "文化・アート",
+        "description": "三重塔が美しい曹洞宗の寺院",
+        "icon": "🏯"
+      },
+      {
+        "rank": 1,
+        "name": "都心15分圏の水と緑",
+        "category": "ランドマーク",
+        "description": "池袋急行15分で手に入る武蔵野の自然が最大の贅沢",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+    "colorFrom": "#15803d",
+    "colorTo": "#4ade80",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_21620/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92/"
+    }
+  },
+  {
+    "slug": "itabashi",
+    "name": "板橋",
+    "area": "板橋区",
+    "station": [
+      "板橋駅"
+    ],
+    "lines": [
+      "JR埼京線"
+    ],
+    "catchcopy": "池袋3分、知られざる最コスパ駅",
+    "description": "池袋までわずか3分のJR埼京線・板橋駅。隣の池袋の華やかさとは対照的に、昔ながらの商店街と銭湯が残る穏やかな下町風情。家賃相場は23区内でもトップクラスの安さで、新宿・渋谷へもダイレクトにアクセス可能。都心勤務の若手社会人にとって最強のコスパを誇る。",
+    "vibe": [
+      "コスパ最強",
+      "下町",
+      "池袋近い",
+      "銭湯",
+      "穴場"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "社会人",
+      "節約志向"
+    ],
+    "commuteMinutes": {
+      "渋谷": 15,
+      "新宿": 10,
+      "東京": 22,
+      "池袋": 3,
+      "品川": 25
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "板橋宿不動通り商店街",
+        "category": "ショッピング",
+        "description": "旧中山道・板橋宿の歴史が残る下町商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "いたばし花火大会",
+        "category": "イベント",
+        "description": "荒川河川敷で開催される都内屈指の花火大会",
+        "icon": "🎆"
+      },
+      {
+        "rank": 8,
+        "name": "板橋区立美術館",
+        "category": "文化・アート",
+        "description": "ボローニャ絵本原画展で知られるユニークな美術館",
+        "icon": "🎨"
+      },
+      {
+        "rank": 7,
+        "name": "東板橋公園（板橋こども動物園）",
+        "category": "公園・自然",
+        "description": "無料でヤギやヒツジと触れ合える区立動物園",
+        "icon": "🐑"
+      },
+      {
+        "rank": 6,
+        "name": "板橋駅前本通り商店街",
+        "category": "ショッピング",
+        "description": "日常使いに便利な飲食店・スーパーが並ぶ",
+        "icon": "🛒"
+      },
+      {
+        "rank": 5,
+        "name": "縁宿（よりやど）",
+        "category": "ランドマーク",
+        "description": "旧中山道の宿場町・板橋宿の歴史を感じるエリア",
+        "icon": "🏚️"
+      },
+      {
+        "rank": 4,
+        "name": "加賀公園",
+        "category": "公園・自然",
+        "description": "加賀藩下屋敷跡に造られた歴史ある公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 3,
+        "name": "大山ハッピーロード",
+        "category": "ショッピング",
+        "description": "隣駅・大山の全長560mの活気溢れるアーケード",
+        "icon": "🎪"
+      },
+      {
+        "rank": 2,
+        "name": "銭湯巡り",
+        "category": "ランドマーク",
+        "description": "板橋区は都内有数の銭湯密集エリア",
+        "icon": "♨️"
+      },
+      {
+        "rank": 1,
+        "name": "池袋3分の圧倒的コスパ",
+        "category": "ランドマーク",
+        "description": "23区最安水準の家賃で都心直結という反則級の利便性",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80",
+    "colorFrom": "#9333ea",
+    "colorTo": "#c084fc",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02360/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E6%9D%BF%E6%A9%8B/"
+    }
+  },
+  {
+    "slug": "kameari",
+    "name": "亀有",
+    "area": "葛飾区",
+    "station": [
+      "亀有駅"
+    ],
+    "lines": [
+      "JR常磐線（各駅停車）"
+    ],
+    "catchcopy": "両さんが愛した、人情と笑いの街",
+    "description": "「こちら葛飾区亀有公園前派出所」の舞台として全国に知られる下町の代表格。駅前には両さん像が点在し、商店街には昔ながらの個人商店と活気が溢れる。アリオ亀有で大型ショッピングも可能。家賃の安さと人情味が同居する、東京の原風景のような街。",
+    "vibe": [
+      "下町",
+      "こち亀",
+      "人情",
+      "商店街",
+      "ファミリー"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "9.5万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "20代一人暮らし",
+      "節約志向"
+    ],
+    "commuteMinutes": {
+      "渋谷": 45,
+      "新宿": 40,
+      "東京": 30,
+      "池袋": 40,
+      "品川": 42
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "両さん像めぐり",
+        "category": "ランドマーク",
+        "description": "駅周辺に15体以上の両さん銅像が点在",
+        "icon": "👮"
+      },
+      {
+        "rank": 9,
+        "name": "アリオ亀有",
+        "category": "ショッピング",
+        "description": "映画館やフードコートを備えた大型ショッピングモール",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 8,
+        "name": "亀有公園",
+        "category": "公園・自然",
+        "description": "こち亀の聖地・両さんゆかりの公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 7,
+        "name": "亀有香取神社",
+        "category": "文化・アート",
+        "description": "両さんの絵馬やこち亀石碑がある地元の鎮守",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 6,
+        "name": "ゆうろーど商店街",
+        "category": "ショッピング",
+        "description": "亀有駅南口の昔ながらのアーケード商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 5,
+        "name": "中川沿い散歩",
+        "category": "公園・自然",
+        "description": "桜並木が続く中川の河川敷は散歩やランニングに最適",
+        "icon": "🌸"
+      },
+      {
+        "rank": 4,
+        "name": "亀有駅前商店街",
+        "category": "ショッピング",
+        "description": "惣菜屋や精肉店が並ぶ人情味溢れる商店街",
+        "icon": "🛒"
+      },
+      {
+        "rank": 3,
+        "name": "環七沿いのラーメン店",
+        "category": "グルメ",
+        "description": "環七ラーメン戦争の激戦区で実力店が軒を連ねる",
+        "icon": "🍜"
+      },
+      {
+        "rank": 2,
+        "name": "葛飾区郷土と天文の博物館",
+        "category": "文化・アート",
+        "description": "プラネタリウムも備えた葛飾の歴史・自然の学び場",
+        "icon": "🔭"
+      },
+      {
+        "rank": 1,
+        "name": "亀有の人情と活気",
+        "category": "ランドマーク",
+        "description": "商店街のおじちゃんおばちゃんの温かさが最大の財産",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?w=800&q=80",
+    "colorFrom": "#ca8a04",
+    "colorTo": "#facc15",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02260/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E4%BA%80%E6%9C%89/"
+    }
+  },
+  {
+    "slug": "tachikawa",
+    "name": "立川",
+    "area": "立川市",
+    "station": [
+      "立川駅"
+    ],
+    "lines": [
+      "JR中央線",
+      "JR青梅線",
+      "JR南武線",
+      "多摩モノレール"
+    ],
+    "catchcopy": "多摩の首都、圧倒的な都市力と緑",
+    "description": "多摩地域最大のターミナル駅として、ルミネ・グランデュオ・伊勢丹・IKEA・ららぽーとが集結する商業の中心地。国営昭和記念公園の広大な緑とのコントラストが鮮烈。新宿まで特快25分、4路線利用可能な交通結節点でありながら、都心より遥かにゆとりある暮らしが手に入る。",
+    "vibe": [
+      "ターミナル",
+      "多摩の中心",
+      "緑",
+      "ショッピング",
+      "開放感"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "10.2万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "カップル",
+      "多摩通勤者"
+    ],
+    "commuteMinutes": {
+      "渋谷": 38,
+      "新宿": 25,
+      "東京": 40,
+      "池袋": 35,
+      "品川": 45
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "国営昭和記念公園",
+        "category": "公園・自然",
+        "description": "東京ドーム40個分の広大な国営公園",
+        "icon": "🌷"
+      },
+      {
+        "rank": 9,
+        "name": "ルミネ立川",
+        "category": "ショッピング",
+        "description": "ファッション・グルメ充実の駅ビル",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 8,
+        "name": "グランデュオ立川",
+        "category": "ショッピング",
+        "description": "駅直結のもう一つの大型商業施設",
+        "icon": "🏬"
+      },
+      {
+        "rank": 7,
+        "name": "GREEN SPRINGS",
+        "category": "ショッピング",
+        "description": "ホテル・ホール・商業施設が融合した複合施設",
+        "icon": "🌿"
+      },
+      {
+        "rank": 6,
+        "name": "IKEA立川",
+        "category": "ショッピング",
+        "description": "都内最大級のIKEAで家具・インテリア選び",
+        "icon": "🪑"
+      },
+      {
+        "rank": 5,
+        "name": "立川まんがぱーく",
+        "category": "文化・アート",
+        "description": "約4万冊の漫画が読み放題の市営施設",
+        "icon": "📚"
+      },
+      {
+        "rank": 4,
+        "name": "ファーレ立川アート",
+        "category": "文化・アート",
+        "description": "街中に109点のパブリックアートが点在する屋外美術館",
+        "icon": "🎨"
+      },
+      {
+        "rank": 3,
+        "name": "昭和記念公園の花畑",
+        "category": "公園・自然",
+        "description": "春のチューリップ、秋のコスモスは圧巻のスケール",
+        "icon": "🌻"
+      },
+      {
+        "rank": 2,
+        "name": "立川駅北口グルメエリア",
+        "category": "グルメ",
+        "description": "居酒屋からエスニックまで多彩な飲食店が密集",
+        "icon": "🍻"
+      },
+      {
+        "rank": 1,
+        "name": "多摩最強の都市×自然バランス",
+        "category": "ランドマーク",
+        "description": "何でも揃う都市力と昭和記念公園の緑の共存",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1570521462033-3015e76e7432?w=800&q=80",
+    "colorFrom": "#0891b2",
+    "colorTo": "#22d3ee",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02790/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E7%AB%8B%E5%B7%9D/"
+    }
+  },
+  {
+    "slug": "kokubunji",
+    "name": "国分寺",
+    "area": "国分寺市",
+    "station": [
+      "国分寺駅"
+    ],
+    "lines": [
+      "JR中央線",
+      "西武国分寺線",
+      "西武多摩湖線"
+    ],
+    "catchcopy": "湧水と武蔵野の面影、学園都市の静けさ",
+    "description": "武蔵野台地の湧水群「お鷹の道・真姿の池」が象徴する、水と緑の豊かな学園都市。駅ビルのセレオやミーツが日常を支え、殿ヶ谷戸庭園の国指定名勝が徒歩圏。東京経済大学や東京学芸大学が近く、学生と住民が穏やかに共存する知的で落ち着いた街。",
+    "vibe": [
+      "湧水",
+      "学園都市",
+      "武蔵野",
+      "静か",
+      "知的"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "5.2万",
+      "oneK": "6.5万",
+      "oneLDK": "9.8万"
+    },
+    "bestFor": [
+      "学生",
+      "カップル",
+      "自然好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 40,
+      "新宿": 30,
+      "東京": 42,
+      "池袋": 38,
+      "品川": 48
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "殿ヶ谷戸庭園",
+        "category": "公園・自然",
+        "description": "国指定名勝の回遊式林泉庭園、湧水と紅葉が見事",
+        "icon": "🍁"
+      },
+      {
+        "rank": 9,
+        "name": "お鷹の道・真姿の池湧水群",
+        "category": "公園・自然",
+        "description": "名水百選にも選ばれた武蔵野の清流散歩道",
+        "icon": "💧"
+      },
+      {
+        "rank": 8,
+        "name": "セレオ国分寺",
+        "category": "ショッピング",
+        "description": "駅直結の商業施設でレストラン・書店が充実",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 7,
+        "name": "ミーツ国分寺",
+        "category": "ショッピング",
+        "description": "2018年開業の駅ビルで生活利便性が大幅向上",
+        "icon": "🏬"
+      },
+      {
+        "rank": 6,
+        "name": "武蔵国分寺跡",
+        "category": "文化・アート",
+        "description": "奈良時代の国分寺跡が残る国指定史跡",
+        "icon": "🏛️"
+      },
+      {
+        "rank": 5,
+        "name": "国分寺市立おたかの道湧水園",
+        "category": "公園・自然",
+        "description": "湧水を活かした自然観察園",
+        "icon": "🌿"
+      },
+      {
+        "rank": 4,
+        "name": "国分寺駅北口商店街",
+        "category": "ショッピング",
+        "description": "個人経営の居酒屋やカフェが並ぶ味わい深い通り",
+        "icon": "🏘️"
+      },
+      {
+        "rank": 3,
+        "name": "カフェスロー",
+        "category": "カフェ",
+        "description": "スローフード×フェアトレードを掲げるオーガニックカフェ",
+        "icon": "☕"
+      },
+      {
+        "rank": 2,
+        "name": "武蔵野の湧水めぐり",
+        "category": "公園・自然",
+        "description": "国分寺崖線に沿って点在する湧水スポットを散策",
+        "icon": "🚶"
+      },
+      {
+        "rank": 1,
+        "name": "水と歴史が織りなす武蔵野の暮らし",
+        "category": "ランドマーク",
+        "description": "名水と史跡に囲まれた贅沢な日常が最大の魅力",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?w=800&q=80",
+    "colorFrom": "#166534",
+    "colorTo": "#86efac",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02770/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E5%9B%BD%E5%88%86%E5%AF%BA/"
+    }
+  },
+  {
+    "slug": "mitaka",
+    "name": "三鷹",
+    "area": "三鷹市",
+    "station": [
+      "三鷹駅"
+    ],
+    "lines": [
+      "JR中央線",
+      "JR総武線"
+    ],
+    "catchcopy": "ジブリが選んだ、風の通る街",
+    "description": "三鷹の森ジブリ美術館が象徴する、緑と文化が息づく武蔵野の住宅都市。JR中央線の始発駅で座って通勤できる利点は大きく、井の頭公園の西端にも接する恵まれた自然環境。太宰治や山本有三など文豪ゆかりの地でもあり、穏やかで知的な空気が街全体を包む。",
+    "vibe": [
+      "ジブリ",
+      "始発",
+      "緑",
+      "文学",
+      "穏やか"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "6.2万",
+      "oneK": "7.5万",
+      "oneLDK": "11.5万"
+    },
+    "bestFor": [
+      "カップル",
+      "ファミリー",
+      "20代一人暮らし"
+    ],
+    "commuteMinutes": {
+      "渋谷": 25,
+      "新宿": 18,
+      "東京": 35,
+      "池袋": 28,
+      "品川": 38
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "三鷹の森ジブリ美術館",
+        "category": "文化・アート",
+        "description": "宮崎駿監督が設計した世界中のファンが訪れる美術館",
+        "icon": "🏰"
+      },
+      {
+        "rank": 9,
+        "name": "井の頭恩賜公園（西園）",
+        "category": "公園・自然",
+        "description": "三鷹側から入る井の頭公園は静かで自然が濃い",
+        "icon": "🌳"
+      },
+      {
+        "rank": 8,
+        "name": "山本有三記念館",
+        "category": "文化・アート",
+        "description": "「路傍の石」の作者が暮らした洋館を公開",
+        "icon": "📖"
+      },
+      {
+        "rank": 7,
+        "name": "アトレヴィ三鷹",
+        "category": "ショッピング",
+        "description": "駅ナカ商業施設で書店やカフェが揃う",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 6,
+        "name": "太宰治ゆかりの地",
+        "category": "文化・アート",
+        "description": "太宰が暮らし、入水した玉川上水沿いの散歩道",
+        "icon": "✒️"
+      },
+      {
+        "rank": 5,
+        "name": "風の散歩道",
+        "category": "公園・自然",
+        "description": "三鷹駅からジブリ美術館へ続く玉川上水沿いの遊歩道",
+        "icon": "🍃"
+      },
+      {
+        "rank": 4,
+        "name": "三鷹市芸術文化センター",
+        "category": "文化・アート",
+        "description": "コンサートや演劇が楽しめる市民の文化拠点",
+        "icon": "🎵"
+      },
+      {
+        "rank": 3,
+        "name": "三鷹駅前通り商店街",
+        "category": "ショッピング",
+        "description": "南口から続く生活感のある商店街",
+        "icon": "🏘️"
+      },
+      {
+        "rank": 2,
+        "name": "玉川上水沿い散歩",
+        "category": "公園・自然",
+        "description": "江戸時代の上水路が緑道として残る散歩の名所",
+        "icon": "🚶"
+      },
+      {
+        "rank": 1,
+        "name": "始発×緑×文化の三位一体",
+        "category": "ランドマーク",
+        "description": "中央線始発で座れる通勤、ジブリの森、文学の薫り",
+        "icon": "✨"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?w=800&q=80",
+    "colorFrom": "#059669",
+    "colorTo": "#34d399",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02740/",
+      "homes": "https://www.homes.co.jp/search/freeword=%E4%B8%89%E9%B7%B9/"
+    }
+  }
+]

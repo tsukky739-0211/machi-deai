@@ -1,0 +1,1188 @@
+[
+  {
+    "slug": "machida",
+    "name": "町田",
+    "area": "町田市",
+    "station": [
+      "町田駅"
+    ],
+    "lines": [
+      "小田急線",
+      "JR横浜線"
+    ],
+    "catchcopy": "都心と郊外のあいだ、全部ある街",
+    "description": "新宿から急行で30分、駅前には百貨店や大型商業施設がひしめく南多摩最大の繁華街。仲見世商店街の昭和レトロな雰囲気から、グランベリーパークの最新スポットまで振れ幅が広い。学生街でもあり、安くてうまい飲食店が豊富。リス園や薬師池公園など自然も身近な、都会と田舎のいいとこ取りな街。",
+    "vibe": [
+      "繁華街",
+      "学生街",
+      "コスパ",
+      "多摩",
+      "自然"
+    ],
+    "popularity": 4,
+    "avgRent": {
+      "oneRoom": "4.8万",
+      "oneK": "6.0万",
+      "oneLDK": "9.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "学生",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 40,
+      "新宿": 33,
+      "東京": 50,
+      "池袋": 45,
+      "品川": 48
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "グランベリーパーク",
+        "category": "ショッピング",
+        "description": "アウトレットやスヌーピーミュージアムを擁する大型施設",
+        "icon": "🛍️"
+      },
+      {
+        "rank": 9,
+        "name": "町田リス園",
+        "category": "公園・自然",
+        "description": "約200匹のタイワンリスと触れ合える癒しスポット",
+        "icon": "🐿️"
+      },
+      {
+        "rank": 8,
+        "name": "薬師池公園",
+        "category": "公園・自然",
+        "description": "四季の花々が咲く新東京百景にも選ばれた名園",
+        "icon": "🌸"
+      },
+      {
+        "rank": 7,
+        "name": "仲見世商店街",
+        "category": "ショッピング",
+        "description": "昭和の面影を残すディープなアーケード商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 6,
+        "name": "町田シバヒロ",
+        "category": "イベント",
+        "description": "市役所跡地の広場でマルシェやイベントが通年開催",
+        "icon": "🎪"
+      },
+      {
+        "rank": 5,
+        "name": "ルミネ町田",
+        "category": "ショッピング",
+        "description": "駅直結のファッションビル、トレンドが揃う",
+        "icon": "👗"
+      },
+      {
+        "rank": 4,
+        "name": "町田天満宮",
+        "category": "文化・アート",
+        "description": "学問の神様を祀る街の鎮守、例大祭は圧巻",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 3,
+        "name": "家系ラーメン 町田商店",
+        "category": "グルメ",
+        "description": "町田発祥の家系チェーン、濃厚豚骨が看板",
+        "icon": "🍜"
+      },
+      {
+        "rank": 2,
+        "name": "スターバックス リザーブ 町田マルイ店",
+        "category": "カフェ",
+        "description": "リザーブ豆を楽しめる特別なスタバ",
+        "icon": "☕"
+      },
+      {
+        "rank": 1,
+        "name": "芹ヶ谷公園",
+        "category": "公園・自然",
+        "description": "国際版画美術館に隣接する緑豊かな市民の憩い場",
+        "icon": "🌿"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80",
+    "colorFrom": "#4CAF50",
+    "colorTo": "#81C784",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_25010/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/machida-city/"
+    }
+  },
+  {
+    "slug": "fuchu",
+    "name": "府中",
+    "area": "府中市",
+    "station": [
+      "府中駅"
+    ],
+    "lines": [
+      "京王線"
+    ],
+    "catchcopy": "歴史と緑に守られた、武蔵野の懐",
+    "description": "大國魂神社の門前町として1900年の歴史を持つ、多摩地域の中核都市。けやき並木が美しい駅前大通り、府中の森公園や郷土の森博物館など緑と文化施設が充実。東芝やNECの事業所があり昼間人口も多い。競馬場のイメージが先行するが、実は子育て世代に人気の住みやすい街。",
+    "vibe": [
+      "歴史",
+      "緑豊か",
+      "ファミリー",
+      "落ち着き",
+      "競馬"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "4.5万",
+      "oneK": "5.8万",
+      "oneLDK": "9.0万"
+    },
+    "bestFor": [
+      "ファミリー",
+      "カップル",
+      "落ち着いた暮らし"
+    ],
+    "commuteMinutes": {
+      "渋谷": 35,
+      "新宿": 25,
+      "東京": 42,
+      "池袋": 40,
+      "品川": 45
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "大國魂神社",
+        "category": "文化・アート",
+        "description": "西暦111年創建と伝わる武蔵国の総社、くらやみ祭りが有名",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 9,
+        "name": "東京競馬場",
+        "category": "ランドマーク",
+        "description": "日本ダービーが開催される国内最大級の競馬場",
+        "icon": "🏇"
+      },
+      {
+        "rank": 8,
+        "name": "府中の森公園",
+        "category": "公園・自然",
+        "description": "広大な芝生広場と美術館・劇場を擁する総合公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 7,
+        "name": "府中市郷土の森博物館",
+        "category": "文化・アート",
+        "description": "プラネタリウムと梅園が人気の歴史ミュージアム",
+        "icon": "🔭"
+      },
+      {
+        "rank": 6,
+        "name": "けやき並木通り",
+        "category": "公園・自然",
+        "description": "大國魂神社から続く天然記念物のケヤキ並木",
+        "icon": "🌲"
+      },
+      {
+        "rank": 5,
+        "name": "ル・シーニュ",
+        "category": "ショッピング",
+        "description": "駅直結の複合施設、市民活動センターも入居",
+        "icon": "🏬"
+      },
+      {
+        "rank": 4,
+        "name": "珈琲館 紅鹿舎 府中店",
+        "category": "カフェ",
+        "description": "レトロな雰囲気の老舗喫茶で本格コーヒーを",
+        "icon": "☕"
+      },
+      {
+        "rank": 3,
+        "name": "くらやみ祭り",
+        "category": "イベント",
+        "description": "毎年5月開催、大太鼓と神輿が轟く府中最大の祭典",
+        "icon": "🏮"
+      },
+      {
+        "rank": 2,
+        "name": "武蔵野うどん 大はし",
+        "category": "グルメ",
+        "description": "太くてコシのある武蔵野うどんの名店",
+        "icon": "🍲"
+      },
+      {
+        "rank": 1,
+        "name": "多磨霊園",
+        "category": "公園・自然",
+        "description": "著名人が眠る都立霊園、桜並木の散歩道としても人気",
+        "icon": "🌸"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+    "colorFrom": "#2E7D32",
+    "colorTo": "#66BB6A",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_25210/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/fuchu-city/"
+    }
+  },
+  {
+    "slug": "chofu",
+    "name": "調布",
+    "area": "調布市",
+    "station": [
+      "調布駅"
+    ],
+    "lines": [
+      "京王線",
+      "京王相模原線"
+    ],
+    "catchcopy": "映画と深大寺、穏やかに文化が薫る",
+    "description": "日活撮影所や角川大映スタジオがある「映画のまち」。深大寺の門前でそばをすすり、神代植物公園のバラ園を歩く休日が似合う。京王線地下化で駅前が大きく変わり、トリエ京王調布が誕生。新宿まで特急15分の好アクセスながら、多摩川沿いにはのどかな風景が広がる二面性が魅力。",
+    "vibe": [
+      "映画",
+      "深大寺",
+      "自然",
+      "再開発",
+      "穏やか"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "5.0万",
+      "oneK": "6.3万",
+      "oneLDK": "10.0万"
+    },
+    "bestFor": [
+      "カップル",
+      "ファミリー",
+      "自然好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 28,
+      "新宿": 18,
+      "東京": 38,
+      "池袋": 35,
+      "品川": 40
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "深大寺",
+        "category": "文化・アート",
+        "description": "733年開創の古刹、門前の深大寺そばが名物",
+        "icon": "🛕"
+      },
+      {
+        "rank": 9,
+        "name": "神代植物公園",
+        "category": "公園・自然",
+        "description": "約4800種の植物を誇る都内屈指の植物園",
+        "icon": "🌹"
+      },
+      {
+        "rank": 8,
+        "name": "トリエ京王調布",
+        "category": "ショッピング",
+        "description": "映画館や広場を備えた駅前複合商業施設",
+        "icon": "🎬"
+      },
+      {
+        "rank": 7,
+        "name": "鬼太郎ひろば",
+        "category": "ランドマーク",
+        "description": "水木しげるゆかりの地、妖怪モニュメントが点在",
+        "icon": "👻"
+      },
+      {
+        "rank": 6,
+        "name": "調布花火大会",
+        "category": "イベント",
+        "description": "多摩川河川敷で約1万発が打ち上がる夏の風物詩",
+        "icon": "🎆"
+      },
+      {
+        "rank": 5,
+        "name": "角川大映スタジオ",
+        "category": "文化・アート",
+        "description": "数々の名作映画を生んだ撮影スタジオ",
+        "icon": "🎥"
+      },
+      {
+        "rank": 4,
+        "name": "深大寺そば 湧水",
+        "category": "グルメ",
+        "description": "湧水で打つ手打ちそばの人気店",
+        "icon": "🍜"
+      },
+      {
+        "rank": 3,
+        "name": "味の素スタジアム",
+        "category": "ランドマーク",
+        "description": "FC東京のホーム、コンサートやイベントも開催",
+        "icon": "⚽"
+      },
+      {
+        "rank": 2,
+        "name": "手紙舎 2nd STORY",
+        "category": "カフェ",
+        "description": "手紙や雑貨に囲まれた文化系カフェ",
+        "icon": "✉️"
+      },
+      {
+        "rank": 1,
+        "name": "多摩川サイクリングロード",
+        "category": "公園・自然",
+        "description": "河川敷を走る爽快なサイクリング・ジョギングコース",
+        "icon": "🚴"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "colorFrom": "#1565C0",
+    "colorTo": "#42A5F5",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_25200/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/chofu-city/"
+    }
+  },
+  {
+    "slug": "nippori",
+    "name": "日暮里",
+    "area": "荒川区",
+    "station": [
+      "日暮里駅"
+    ],
+    "lines": [
+      "JR山手線",
+      "JR京浜東北線",
+      "JR常磐線",
+      "京成本線",
+      "日暮里・舎人ライナー"
+    ],
+    "catchcopy": "谷中の坂を抜けて、下町の空に出る",
+    "description": "山手線沿線ながら下町情緒が色濃く残る、知る人ぞ知る穴場。谷中銀座商店街の夕やけだんだんから眺める夕日は東京屈指の美しさ。繊維街では生地やボタンが驚きの安さで手に入る。京成スカイライナーで成田空港直結というアクセスの良さも隠れた武器。",
+    "vibe": [
+      "下町",
+      "谷中",
+      "繊維街",
+      "レトロ",
+      "猫"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "6.8万",
+      "oneK": "8.0万",
+      "oneLDK": "12.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "クリエイター",
+      "海外出張が多い人"
+    ],
+    "commuteMinutes": {
+      "渋谷": 30,
+      "新宿": 22,
+      "東京": 12,
+      "池袋": 15,
+      "品川": 20
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "谷中銀座商店街",
+        "category": "ショッピング",
+        "description": "60以上の店が並ぶ下町の人気商店街、食べ歩き天国",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "夕やけだんだん",
+        "category": "ランドマーク",
+        "description": "谷中銀座を見下ろす階段、夕日の名所として有名",
+        "icon": "🌇"
+      },
+      {
+        "rank": 8,
+        "name": "日暮里繊維街",
+        "category": "ショッピング",
+        "description": "90店舗以上が軒を連ねる日本最大級の繊維問屋街",
+        "icon": "🧵"
+      },
+      {
+        "rank": 7,
+        "name": "谷中霊園",
+        "category": "公園・自然",
+        "description": "桜のトンネルが見事な都内有数の花見スポット",
+        "icon": "🌸"
+      },
+      {
+        "rank": 6,
+        "name": "SCAI THE BATHHOUSE",
+        "category": "文化・アート",
+        "description": "200年の歴史ある銭湯を改装した現代美術ギャラリー",
+        "icon": "🎨"
+      },
+      {
+        "rank": 5,
+        "name": "朝倉彫塑館",
+        "category": "文化・アート",
+        "description": "彫刻家・朝倉文夫のアトリエ兼住居を公開する美術館",
+        "icon": "🗿"
+      },
+      {
+        "rank": 4,
+        "name": "ひみつ堂",
+        "category": "グルメ",
+        "description": "天然氷のかき氷で行列が絶えない人気店",
+        "icon": "🍧"
+      },
+      {
+        "rank": 3,
+        "name": "カヤバ珈琲",
+        "category": "カフェ",
+        "description": "大正時代の建物をリノベした名物喫茶店",
+        "icon": "☕"
+      },
+      {
+        "rank": 2,
+        "name": "経王寺",
+        "category": "文化・アート",
+        "description": "上野戦争の弾痕が残る歴史の証人",
+        "icon": "🛕"
+      },
+      {
+        "rank": 1,
+        "name": "下町風俗資料館 付設展示場(旧吉田屋酒店)",
+        "category": "文化・アート",
+        "description": "明治時代の酒屋を保存した小さな博物館",
+        "icon": "🏚️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80",
+    "colorFrom": "#BF360C",
+    "colorTo": "#FF8A65",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02680/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/arakawa-city/"
+    }
+  },
+  {
+    "slug": "ryogoku",
+    "name": "両国",
+    "area": "墨田区",
+    "station": [
+      "両国駅"
+    ],
+    "lines": [
+      "JR総武線",
+      "都営大江戸線"
+    ],
+    "catchcopy": "相撲と江戸の記憶が、今も息づく",
+    "description": "国技館のある相撲の聖地。場所中は力士が闊歩し、ちゃんこ鍋の名店が軒を連ねる独特の街並み。江戸東京博物館（休館中）や旧安田庭園、隅田川テラスなど歴史と水辺の散策が楽しい。秋葉原まで2駅、大江戸線で新宿・六本木にも直通。下町の粋を日常にできる唯一の場所。",
+    "vibe": [
+      "相撲",
+      "下町",
+      "江戸文化",
+      "ちゃんこ",
+      "隅田川"
+    ],
+    "popularity": 3,
+    "avgRent": {
+      "oneRoom": "7.5万",
+      "oneK": "9.0万",
+      "oneLDK": "13.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "歴史・文化好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 30,
+      "新宿": 25,
+      "東京": 12,
+      "池袋": 28,
+      "品川": 22
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "両国国技館",
+        "category": "ランドマーク",
+        "description": "大相撲の聖地、年3場所が開催される1万人収容の殿堂",
+        "icon": "🏟️"
+      },
+      {
+        "rank": 9,
+        "name": "すみだ北斎美術館",
+        "category": "文化・アート",
+        "description": "葛飾北斎の作品を収蔵する妹島和世設計の美術館",
+        "icon": "🎨"
+      },
+      {
+        "rank": 8,
+        "name": "旧安田庭園",
+        "category": "公園・自然",
+        "description": "潮入り回遊式庭園の名残を留める無料の都立庭園",
+        "icon": "🏯"
+      },
+      {
+        "rank": 7,
+        "name": "隅田川テラス",
+        "category": "公園・自然",
+        "description": "スカイツリーを望むリバーサイドの散歩道",
+        "icon": "🌉"
+      },
+      {
+        "rank": 6,
+        "name": "ちゃんこ巴潟",
+        "category": "グルメ",
+        "description": "元力士が営む老舗ちゃんこ鍋の名店",
+        "icon": "🍲"
+      },
+      {
+        "rank": 5,
+        "name": "回向院",
+        "category": "文化・アート",
+        "description": "鼠小僧の墓がある江戸時代から続く古刹",
+        "icon": "🛕"
+      },
+      {
+        "rank": 4,
+        "name": "両国花火資料館",
+        "category": "文化・アート",
+        "description": "隅田川花火大会の歴史を伝える小さな資料館",
+        "icon": "🎆"
+      },
+      {
+        "rank": 3,
+        "name": "隅田川花火大会",
+        "category": "イベント",
+        "description": "毎年7月、約2万発が夜空を彩る東京の夏の風物詩",
+        "icon": "🎇"
+      },
+      {
+        "rank": 2,
+        "name": "ブルーボトルコーヒー 両国店",
+        "category": "カフェ",
+        "description": "蔵をリノベした風情ある空間でスペシャルティコーヒー",
+        "icon": "☕"
+      },
+      {
+        "rank": 1,
+        "name": "江島杉山神社",
+        "category": "文化・アート",
+        "description": "鍼灸の祖を祀る珍しい神社、岩屋洞窟も必見",
+        "icon": "⛩️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=800&q=80",
+    "colorFrom": "#4E342E",
+    "colorTo": "#8D6E63",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02810/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/sumida-city/"
+    }
+  },
+  {
+    "slug": "oji",
+    "name": "王子",
+    "area": "北区",
+    "station": [
+      "王子駅"
+    ],
+    "lines": [
+      "JR京浜東北線",
+      "東京メトロ南北線",
+      "都電荒川線"
+    ],
+    "catchcopy": "飛鳥山の桜の下、都電が走る",
+    "description": "徳川吉宗が桜を植えた飛鳥山公園を擁する、東京北部の玄関口。JR・メトロ・都電の3路線が交差し、都心アクセスは抜群。音無親水公園のせせらぎ、北区中央図書館の赤レンガ、王子狐の行列など、観光ガイドに載らない魅力が詰まった実力派の街。家賃も手頃で、穴場を探す人にぴったり。",
+    "vibe": [
+      "桜",
+      "都電",
+      "下町",
+      "コスパ",
+      "穴場"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "6.0万",
+      "oneK": "7.2万",
+      "oneLDK": "10.8万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視",
+      "穴場好き"
+    ],
+    "commuteMinutes": {
+      "渋谷": 28,
+      "新宿": 22,
+      "東京": 18,
+      "池袋": 12,
+      "品川": 22
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "飛鳥山公園",
+        "category": "公園・自然",
+        "description": "徳川吉宗が造った桜の名所、無料モノレールも人気",
+        "icon": "🌸"
+      },
+      {
+        "rank": 9,
+        "name": "音無親水公園",
+        "category": "公園・自然",
+        "description": "石神井川の旧流路を利用した日本の都市公園100選の一つ",
+        "icon": "💧"
+      },
+      {
+        "rank": 8,
+        "name": "北区中央図書館（赤レンガ図書館）",
+        "category": "文化・アート",
+        "description": "旧陸軍の赤レンガ倉庫を改装した美しい図書館",
+        "icon": "📚"
+      },
+      {
+        "rank": 7,
+        "name": "都電荒川線（東京さくらトラム）",
+        "category": "ランドマーク",
+        "description": "王子駅前を走る東京唯一の路面電車",
+        "icon": "🚃"
+      },
+      {
+        "rank": 6,
+        "name": "王子神社",
+        "category": "文化・アート",
+        "description": "王子の地名の由来となった北区の総鎮守",
+        "icon": "⛩️"
+      },
+      {
+        "rank": 5,
+        "name": "王子狐の行列",
+        "category": "イベント",
+        "description": "大晦日に狐メイクで練り歩く幻想的な年末行事",
+        "icon": "🦊"
+      },
+      {
+        "rank": 4,
+        "name": "渋沢史料館",
+        "category": "文化・アート",
+        "description": "日本資本主義の父・渋沢栄一の足跡を辿る",
+        "icon": "💴"
+      },
+      {
+        "rank": 3,
+        "name": "平澤かまぼこ",
+        "category": "グルメ",
+        "description": "揚げたてのおでん種が絶品の老舗かまぼこ店",
+        "icon": "🍢"
+      },
+      {
+        "rank": 2,
+        "name": "名主の滝公園",
+        "category": "公園・自然",
+        "description": "都内では珍しい滝が流れる江戸時代からの庭園",
+        "icon": "🏞️"
+      },
+      {
+        "rank": 1,
+        "name": "CAFE NORTH LAKE",
+        "category": "カフェ",
+        "description": "飛鳥山公園近くの隠れ家的スペシャルティコーヒー店",
+        "icon": "☕"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80",
+    "colorFrom": "#C62828",
+    "colorTo": "#EF5350",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02650/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/kita-city/"
+    }
+  },
+  {
+    "slug": "narimasu",
+    "name": "成増",
+    "area": "板橋区",
+    "station": [
+      "成増駅",
+      "地下鉄成増駅"
+    ],
+    "lines": [
+      "東武東上線",
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線"
+    ],
+    "catchcopy": "池袋10分、板橋の最果てに実力あり",
+    "description": "板橋区の西端に位置し、練馬区・和光市と接する境界の街。東武東上線とメトロ2路線が使え、池袋まで急行10分・渋谷も副都心線で直通という利便性。駅前のスキップ村商店街は活気があり、飲食店のコスパが高い。光が丘公園も徒歩圏で、都心通勤者の隠れた人気エリア。",
+    "vibe": [
+      "コスパ",
+      "商店街",
+      "池袋圏",
+      "穴場",
+      "2路線"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "10.0万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "コスパ重視",
+      "池袋通勤"
+    ],
+    "commuteMinutes": {
+      "渋谷": 28,
+      "新宿": 22,
+      "東京": 32,
+      "池袋": 10,
+      "品川": 35
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "スキップ村商店街",
+        "category": "ショッピング",
+        "description": "成増駅南口から伸びる活気ある全蓋式アーケード商店街",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "光が丘公園",
+        "category": "公園・自然",
+        "description": "バーベキュー広場や銀杏並木が美しい広大な都立公園",
+        "icon": "🌳"
+      },
+      {
+        "rank": 8,
+        "name": "兵六餅の菓匠みずき",
+        "category": "グルメ",
+        "description": "成増名物・兵六餅を生んだ老舗和菓子店",
+        "icon": "🍡"
+      },
+      {
+        "rank": 7,
+        "name": "赤塚植物園",
+        "category": "公園・自然",
+        "description": "万葉・薬用植物園を併設する四季折々の植物園",
+        "icon": "🌺"
+      },
+      {
+        "rank": 6,
+        "name": "赤塚城址",
+        "category": "文化・アート",
+        "description": "室町時代の城跡、梅林と竹林が美しい散策スポット",
+        "icon": "🏯"
+      },
+      {
+        "rank": 5,
+        "name": "成増アクトホール",
+        "category": "文化・アート",
+        "description": "コンサートや演劇が楽しめる地域のホール",
+        "icon": "🎶"
+      },
+      {
+        "rank": 4,
+        "name": "インドカレー AHAN",
+        "category": "グルメ",
+        "description": "本格スパイスカレーが評判の地元人気店",
+        "icon": "🍛"
+      },
+      {
+        "rank": 3,
+        "name": "板橋区立美術館",
+        "category": "文化・アート",
+        "description": "ボローニャ国際絵本原画展で知られる区立美術館",
+        "icon": "🖼️"
+      },
+      {
+        "rank": 2,
+        "name": "不動通り商店街",
+        "category": "ショッピング",
+        "description": "地元密着の商店街、昔ながらの総菜屋や肉屋が並ぶ",
+        "icon": "🛒"
+      },
+      {
+        "rank": 1,
+        "name": "松月院",
+        "category": "文化・アート",
+        "description": "高島秋帆ゆかりの古刹、紅葉の穴場スポット",
+        "icon": "🍁"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800&q=80",
+    "colorFrom": "#F57F17",
+    "colorTo": "#FDD835",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_03610/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/itabashi-city/"
+    }
+  },
+  {
+    "slug": "nerima",
+    "name": "練馬",
+    "area": "練馬区",
+    "station": [
+      "練馬駅"
+    ],
+    "lines": [
+      "西武池袋線",
+      "西武有楽町線",
+      "西武豊島線",
+      "都営大江戸線"
+    ],
+    "catchcopy": "アニメと畑と大江戸線、東京の裏庭",
+    "description": "日本アニメ発祥の地であり、都内有数の農業区でもある練馬。としまえん跡地にハリー・ポッターのスタジオツアーが誕生し、新たなランドマークに。西武線と大江戸線が交差する交通の要衝で、池袋まで8分。練馬大根をはじめ、都市農業が身近にある珍しい23区。穏やかで家賃も手頃な生活者の街。",
+    "vibe": [
+      "アニメ",
+      "農業",
+      "穏やか",
+      "コスパ",
+      "ファミリー"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "ファミリー",
+      "コスパ重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 30,
+      "新宿": 18,
+      "東京": 35,
+      "池袋": 8,
+      "品川": 35
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "ワーナー ブラザース スタジオツアー東京",
+        "category": "ランドマーク",
+        "description": "ハリー・ポッターの世界に没入できる体験型施設",
+        "icon": "🧙"
+      },
+      {
+        "rank": 9,
+        "name": "練馬区立美術館",
+        "category": "文化・アート",
+        "description": "近現代の日本美術を中心にユニークな企画展を開催",
+        "icon": "🖼️"
+      },
+      {
+        "rank": 8,
+        "name": "石神井公園",
+        "category": "公園・自然",
+        "description": "三宝寺池と石神井池、二つの池を擁する武蔵野の名残",
+        "icon": "🦆"
+      },
+      {
+        "rank": 7,
+        "name": "練馬アニメーションサイト",
+        "category": "文化・アート",
+        "description": "東映アニメーションなど90社以上のスタジオが集積するアニメの聖地",
+        "icon": "🎞️"
+      },
+      {
+        "rank": 6,
+        "name": "光が丘公園",
+        "category": "公園・自然",
+        "description": "練馬区最大の公園、銀杏並木とバードサンクチュアリ",
+        "icon": "🌳"
+      },
+      {
+        "rank": 5,
+        "name": "練馬大根引っこ抜き大会",
+        "category": "イベント",
+        "description": "毎年12月開催、練馬大根を引き抜く痛快イベント",
+        "icon": "🥬"
+      },
+      {
+        "rank": 4,
+        "name": "ちひろ美術館・東京",
+        "category": "文化・アート",
+        "description": "いわさきちひろの絵本原画を展示する世界初の絵本美術館",
+        "icon": "📖"
+      },
+      {
+        "rank": 3,
+        "name": "としまえん跡地 練馬城址公園",
+        "category": "公園・自然",
+        "description": "旧遊園地の面影を残しながら整備が進む新しい公園",
+        "icon": "🎢"
+      },
+      {
+        "rank": 2,
+        "name": "鳥長",
+        "category": "グルメ",
+        "description": "練馬の焼鳥名店、備長炭で丁寧に焼く一本に唸る",
+        "icon": "🍗"
+      },
+      {
+        "rank": 1,
+        "name": "COFFEE VALLEY 練馬店",
+        "category": "カフェ",
+        "description": "自家焙煎のスペシャルティコーヒーが味わえる",
+        "icon": "☕"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?w=800&q=80",
+    "colorFrom": "#558B2F",
+    "colorTo": "#9CCC65",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_03560/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/nerima-city/"
+    }
+  },
+  {
+    "slug": "jujo",
+    "name": "十条",
+    "area": "北区",
+    "station": [
+      "十条駅"
+    ],
+    "lines": [
+      "JR埼京線"
+    ],
+    "catchcopy": "物価の安さは都内随一、飾らない下町",
+    "description": "「東京一物価が安い街」として知られる十条銀座商店街が街の心臓。総菜・焼鳥・青果が驚きの価格で並び、食費を抑えたい人には天国。埼京線で池袋7分・新宿12分・渋谷18分と実は好アクセス。再開発で駅ビルも誕生予定だが、庶民的な空気はまだ健在。飾らず暮らしたい人のための街。",
+    "vibe": [
+      "激安",
+      "商店街",
+      "下町",
+      "庶民的",
+      "食べ歩き"
+    ],
+    "popularity": 2,
+    "avgRent": {
+      "oneRoom": "5.5万",
+      "oneK": "6.8万",
+      "oneLDK": "10.2万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "学生",
+      "コスパ最優先"
+    ],
+    "commuteMinutes": {
+      "渋谷": 18,
+      "新宿": 12,
+      "東京": 25,
+      "池袋": 7,
+      "品川": 28
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "十条銀座商店街",
+        "category": "ショッピング",
+        "description": "200m超のアーケードに激安総菜や名物店がひしめく",
+        "icon": "🏮"
+      },
+      {
+        "rank": 9,
+        "name": "十条富士塚",
+        "category": "文化・アート",
+        "description": "江戸時代の富士信仰を今に伝える北区指定有形民俗文化財",
+        "icon": "🗻"
+      },
+      {
+        "rank": 8,
+        "name": "鶏大 十条店",
+        "category": "グルメ",
+        "description": "チキンステーキ定食が名物の行列グルメ",
+        "icon": "🍗"
+      },
+      {
+        "rank": 7,
+        "name": "だるまや餅菓子店",
+        "category": "グルメ",
+        "description": "十条名物の大きな焼きだんごは1本から気軽に",
+        "icon": "🍡"
+      },
+      {
+        "rank": 6,
+        "name": "十条駅西口再開発エリア",
+        "category": "ランドマーク",
+        "description": "2025年以降完成予定の新しい駅前複合施設",
+        "icon": "🏗️"
+      },
+      {
+        "rank": 5,
+        "name": "篠原演芸場",
+        "category": "文化・アート",
+        "description": "大衆演劇が観られる都内唯一の常設劇場",
+        "icon": "🎭"
+      },
+      {
+        "rank": 4,
+        "name": "十条マルシェ",
+        "category": "イベント",
+        "description": "地元の農産物や手作り品が集まる定期マルシェ",
+        "icon": "🥕"
+      },
+      {
+        "rank": 3,
+        "name": "惣菜 みやはら",
+        "category": "グルメ",
+        "description": "手作り総菜が100円台から並ぶ商店街の人気店",
+        "icon": "🍱"
+      },
+      {
+        "rank": 2,
+        "name": "カフェ イコ",
+        "category": "カフェ",
+        "description": "商店街裏手のゆったりくつろげる隠れ家カフェ",
+        "icon": "☕"
+      },
+      {
+        "rank": 1,
+        "name": "清水坂公園",
+        "category": "公園・自然",
+        "description": "起伏を活かした長いすべり台が子供に大人気",
+        "icon": "🛝"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=800&q=80",
+    "colorFrom": "#E65100",
+    "colorTo": "#FF9800",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_02640/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/kita-city/"
+    }
+  },
+  {
+    "slug": "kotake-mukaihara",
+    "name": "小竹向原",
+    "area": "練馬区",
+    "station": [
+      "小竹向原駅"
+    ],
+    "lines": [
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線",
+      "西武有楽町線"
+    ],
+    "catchcopy": "3路線が交わる、静寂の分岐点",
+    "description": "有楽町線・副都心線・西武有楽町線が合流する地下鉄の要衝でありながら、地上は驚くほど静かな住宅街。池袋まで6分、渋谷・横浜方面にも副都心線で直通。江古田や練馬にも近く、日大芸術学部や武蔵大学の学生も多い。華やかさはないが、通勤利便性と静けさを両立できる都内屈指の穴場。",
+    "vibe": [
+      "穴場",
+      "静か",
+      "直通便利",
+      "住宅街",
+      "学生街"
+    ],
+    "popularity": 1,
+    "avgRent": {
+      "oneRoom": "5.8万",
+      "oneK": "7.0万",
+      "oneLDK": "10.5万"
+    },
+    "bestFor": [
+      "20代一人暮らし",
+      "穴場好き",
+      "通勤利便性重視"
+    ],
+    "commuteMinutes": {
+      "渋谷": 20,
+      "新宿": 18,
+      "東京": 28,
+      "池袋": 6,
+      "品川": 32
+    },
+    "spots": [
+      {
+        "rank": 10,
+        "name": "武蔵野音楽大学",
+        "category": "文化・アート",
+        "description": "日本有数の音大、構内から聴こえる楽器の音が街のBGM",
+        "icon": "🎵"
+      },
+      {
+        "rank": 9,
+        "name": "江古田の森公園",
+        "category": "公園・自然",
+        "description": "旧中野療養所跡地に整備された緑豊かな防災公園",
+        "icon": "🌲"
+      },
+      {
+        "rank": 8,
+        "name": "練馬区立 向山庭園",
+        "category": "公園・自然",
+        "description": "和風庭園と茶室を備えた静かな区立庭園",
+        "icon": "🍵"
+      },
+      {
+        "rank": 7,
+        "name": "日大芸術学部（江古田キャンパス）",
+        "category": "文化・アート",
+        "description": "映画・演劇・美術の学生が集う芸術の拠点",
+        "icon": "🎬"
+      },
+      {
+        "rank": 6,
+        "name": "江古田市場通り商店街",
+        "category": "ショッピング",
+        "description": "学生向けの安くておいしい飲食店が並ぶ活気ある通り",
+        "icon": "🛒"
+      },
+      {
+        "rank": 5,
+        "name": "マチュピチュ（ペルー料理）",
+        "category": "グルメ",
+        "description": "江古田で本格ペルー料理が味わえる異色の人気店",
+        "icon": "🫓"
+      },
+      {
+        "rank": 4,
+        "name": "茶房 雨の日と月曜日は",
+        "category": "カフェ",
+        "description": "古民家風の静かなカフェで手作りスイーツを",
+        "icon": "☕"
+      },
+      {
+        "rank": 3,
+        "name": "練馬区立 南長崎スポーツセンター",
+        "category": "ランドマーク",
+        "description": "プール・ジム完備の区営スポーツ施設",
+        "icon": "🏊"
+      },
+      {
+        "rank": 2,
+        "name": "小竹向原 手づくり市",
+        "category": "イベント",
+        "description": "地元作家のハンドメイド品が集まる小さなマルシェ",
+        "icon": "🧶"
+      },
+      {
+        "rank": 1,
+        "name": "氷川台 氷川神社",
+        "category": "文化・アート",
+        "description": "石神井川沿いの緑に包まれた静かな鎮守社",
+        "icon": "⛩️"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80",
+    "colorFrom": "#6A1B9A",
+    "colorTo": "#AB47BC",
+    "externalLinks": {
+      "suumo": "https://suumo.jp/chintai/tokyo/ek_24670/",
+      "homes": "https://www.homes.co.jp/chintai/tokyo/nerima-city/"
+    }
+  }
+]
