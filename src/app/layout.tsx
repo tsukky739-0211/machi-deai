@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "街deai",
     images: [
       {
-        url: `${siteUrl}/og-image.png`,
+        url: `${siteUrl}/og-image.png?v=2`,
         width: 1200,
         height: 630,
         alt: "街deai - 知らなかった街に、出会おう",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "街deai - 知らなかった街に、出会おう",
     description:
       "好みのライフスタイルを選ぶだけで、あなたにぴったりの穴場な街が見つかる。東京100街を収録。",
-    images: [`${siteUrl}/og-image.png`],
+    images: [`${siteUrl}/og-image.png?v=2`],
   },
 };
 
