@@ -180,7 +180,7 @@ export default function Home() {
             }`}
           >
             {canProceed
-              ? `${selectedVibes.length}つのスタイルで街を探す →`
+              ? `この条件で街を探す →`
               : "好みを1つ以上選んでね"}
           </button>
         </div>
