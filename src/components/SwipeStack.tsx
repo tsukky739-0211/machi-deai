@@ -141,7 +141,7 @@ export default function SwipeStack({ towns, onIndexChange }: SwipeStackProps) {
       </div>
 
       {/* カードスタック */}
-      <div className="relative w-full flex-1">
+      <div className="relative w-full flex-1 min-h-0">
         {/* 次のカード（背景） */}
         {nextTown && (
           <div className="absolute inset-0 scale-95 opacity-60">
